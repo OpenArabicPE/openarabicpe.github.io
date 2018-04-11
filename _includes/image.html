@@ -1,0 +1,14 @@
+<figure class="image {{ include.class }}">
+	{% if include.url contains 'http' %}
+	<a href="{{ include.url }}" target="_blank">
+    	<img src="{{ include.url}}" alt="{{ include.description }}">
+    	<figcaption>{{ include.description }}</figcaption>
+    </a>
+	{% else %}
+	<a href="{{ include.url | prepend: site.baseurl }}" target="_blank">
+    	<img src="{{ include.url | prepend: site.baseurl}}" alt="{{ include.description }}">
+    	<figcaption>{{ include.description }}</figcaption>
+    </a>
+	{% endif %}
+    
+</figure>

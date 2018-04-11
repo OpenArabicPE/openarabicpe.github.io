@@ -1,0 +1,60 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: digital muqtabas — المقتبس الرقمي
+email: grallert@orient-institut.org
+description: >
+  A digital edition (TEI XML) of the Arabic monthly journal al-Muqtabas, published by Muḥammad Kurd ʿAlī in Cairo and Damascus between 1906 and 1917/18
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://openarabicpe.github.io" # the base hostname & protocol for your site
+
+# author information
+author: Till Grallert
+bio: Research associate (PhD in History, Freie Universität Berlin, 2014) at Orient Institut Beirut. He is a student of the social and urban history of *Bilād al-Shām* in late Ottoman times. He currently works on a genealogy of food riots as a repertoire of contention between the mid-eighteenth and the mid-twentieth centuries
+
+twitter_username: tillgrallert
+github_username:  tillgrallert
+faceboook_username: till.grallert
+disqus_shortname: sitzextase
+
+# Build settings
+# Outputting
+permalink:  /blog/:year/:month/:day/:title/ # default value: date; built-in values: date, pretty, ordinal, none
+paginate_path: /page:num
+timezone:    null
+quiet:    false
+defaults: []
+
+# Markdown settings
+markdown: kramdown # pandoc
+# markdown: redcarpet
+highlighter: rouge
+
+# pagination should work with "paginate: 5"
+
+# Default values
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "default"
+      author: Till Grallert
+
+# Where things are
+source:      .
+destination: ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
+
+# Plugins
+whitelist: []
+gems: []
