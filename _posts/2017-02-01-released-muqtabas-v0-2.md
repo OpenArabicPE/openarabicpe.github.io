@@ -17,3 +17,7 @@ We just released v0.2 of the journal *al-Muqtabas*. This release includes struct
 
 - vol. 5: complete
 - vol. 6: complete
+
+I wish to express my gratitude to the following contributors, who helped with the mark-up of page breaks:
+
+- Dimitar Dragnev: volume 5, issues 2 to 12
