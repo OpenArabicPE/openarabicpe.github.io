@@ -11,7 +11,7 @@ tags:
 - journal_al-muqtabas
 ---
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1438536.svg)](https://doi.org/10.5281/zenodo.1438536)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2358482.svg)](https://doi.org/10.5281/zenodo.2358482)
 
 We just released v0.5 of the journal *al-Muqtabas*. This release includes structural mark-up and page breaks based on the digital facsimiles for all issues of volume 3. As always, this release comprises all previously released files. This time, however, we have also included various improvements to TEI files and the bibliographic metadata, namely links from named entities, such as persons and places, to authority files (VIAF and GeoNames).
 
