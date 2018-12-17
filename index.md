@@ -2,11 +2,11 @@
 layout: default
 title: "about"
 author: Till Grallert
-date: 2016-10-23 23:33:08 +0200
+date: 2018-12-17 16:41:11 +0200
 <!-- permalink: /about/ -->
 ---
 
-# Digital *Muqtabas*: An open, collaborative, and scholarly digital edition of Muḥammad Kurd ʿAlī's early Arabic periodical *Majallat al-Muqtabas* (1906--1917/18)
+# A framework for open, collaborative, and scholarly digital editions of early Arabic periodicals
 
 In the context of the current onslaught cultural artifacts in the Middle East face from the iconoclasts of the Islamic State, from the institutional neglect of states and elites, and from poverty and war, digital preservation efforts promise some relief as well as potential counter narratives. They might also be the only resolve for future education and rebuilding efforts once the wars in Syria, Iraq or Yemen come to an end. 
 
