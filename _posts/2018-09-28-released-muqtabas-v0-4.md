@@ -2,7 +2,7 @@
 layout: post
 title: "v0.4 of (*majallat*) *al-Muqtabas*: volume 1"
 author: Till Grallert
-date: 2018-05-09
+date: 2018-09-28
 categories: releases
 tags:
 - xml
