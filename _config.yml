@@ -59,4 +59,4 @@ data_dir: ./_data
 whitelist: []
 gems: []
 
-theme: jekyll-theme-cayman
+theme: beautiful-jekyll
