@@ -58,3 +58,5 @@ data_dir: ./_data
 # Plugins
 whitelist: []
 gems: []
+
+theme: jekyll-theme-cayman
