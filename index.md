@@ -2,7 +2,7 @@
 layout: default
 title: "about"
 author: Till Grallert
-date: 2016-10-23 23:33:08 +0200
+date: 2018-11-02 13:17:33 +0200
 <!-- permalink: /about/ -->
 ---
 
@@ -95,28 +95,28 @@ Muḥammad Kurd ʿAlī published the monthly journal *al-Muqtabas* between 1906 
 
 ## 2.1 Publication schedule and number of issues
 
-There is some confusion as to the counting of issues and their publication dates. Samir Seikaly argues that Muḥammad Kurd ʿAlī was wrong in stating in his memoirs that he had published 8 volumes of 12 issues each and two independent issues.[^1] But the actual hard copies at the [Orient-Institut Beirut](http://www.orient-institut.org) and the digital facsimiles from HathiTrust and EAP show that Kurd ʿAlī was right insofar as volume 9 existed and comprised 2 issues only. As it turns out, *al-Muqtabas* also published a number of double issues: [Vol. 4 no. 5/6](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_41.TEIP5.xml) and [Vol. 8 no. 11/12](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_94.TEIP5.xml).
+There is some confusion as to the counting of issues and their publication dates. Samir Seikaly argues that Muḥammad Kurd ʿAlī was wrong in stating in his memoirs that he had published 8 volumes of 12 issues each and two independent issues.[^1] But the actual hard copies at the [Orient-Institut Beirut](http://www.orient-institut.org) and the digital facsimiles from HathiTrust and EAP show that Kurd ʿAlī was right insofar as volume 9 existed and comprised 2 issues only. As it turns out, *al-Muqtabas* also published a number of double issues: [Vol. 4 no. 5/6](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_41.TEIP5.xml) and [Vol. 8 no. 11/12](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_94.TEIP5.xml).
 
 [^1]:{KurdʿAlī 1928@424}, {Seikaly 1981@128}
 
-According to the masthead and the cover sheet, *al-Muqtabas*'s publication schedule followed the Islamic *hijrī* calendar (from the journal itself it must remain open whether the recorded publication dates were the actual publication dates). Sometimes the printers made errors: [no. 4/2](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_38.TEIP5.xml), for instance, carries Rab I 1327 aH as publication date on the cover sheet, but Ṣaf 1327 aH in its masthead. The latter would correspond to the official publication schedule. External sources, such as reports in the daily newspaper *al-Muqtabas*, also published by Muḥammad Kurd ʿAlī in Damascus, indicate that the actual publication sequence was indeed not too tightly tied to the monthly publication schedule already at the very beginning:
+According to the masthead and the cover sheet, *al-Muqtabas*'s publication schedule followed the Islamic *hijrī* calendar (from the journal itself it must remain open whether the recorded publication dates were the actual publication dates). Sometimes the printers made errors: [no. 4/2](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_38.TEIP5.xml), for instance, carries Rab I 1327 aH as publication date on the cover sheet, but Ṣaf 1327 aH in its masthead. The latter would correspond to the official publication schedule. External sources, such as reports in the daily newspaper *al-Muqtabas*, also published by Muḥammad Kurd ʿAlī in Damascus, indicate that the actual publication sequence was indeed not too tightly tied to the monthly publication schedule already at the very beginning:
 
-*Thamarāt al-Funūn* 29 Jan. 1906 / 4 Dhu II 1323 aH (#1548) announced the publication of [no.2 of *Majallat al-Muqtabas*](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_2.TEIP5.xml) two months earlier than the date indicated in the issue's masthead: Ṣafar 1324 aH.[^5] This also contradicts Muḥammad Kurd ʿAlī's memoirs, where he states that publication of *Muqtabas* commenced in early 1324 aH.[^11]
+*Thamarāt al-Funūn* 29 Jan. 1906 / 4 Dhu II 1323 aH (#1548) announced the publication of [no.2 of *Majallat al-Muqtabas*](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_2.TEIP5.xml) two months earlier than the date indicated in the issue's masthead: Ṣafar 1324 aH.[^5] This also contradicts Muḥammad Kurd ʿAlī's memoirs, where he states that publication of *Muqtabas* commenced in early 1324 aH.[^11]
 
 [^11]:{KurdʿAlī 1928@415}
 
-By Summer 1909, *al-Muqtabas* was lagging severely behind its publication schedule. [No. 4/7](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_42.TEIP5.xml), scheduled for Rajab 1327 aH (Jul/Aug 1909) was published only in the first week of April 1910 but it took only another week for [No. 4/8](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_43.TEIP5.xml) to appear.[^14] No. 4/9 and [4/10](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_45.TEIP5.xml) were then published within another month.[^4] Nevertheless there were still rather late (the latter should have been published in Shawwāl 1327 aH (Oct/Nov 1909)). [No. 4/12 (Dhu II 1327 aH [Dec 1909/ Jan 1910])](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_47.TEIP5.xml) was published at the beginning of July 1910, some seven months behind the schedule.[^6]
+By Summer 1909, *al-Muqtabas* was lagging severely behind its publication schedule. [No. 4/7](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_42.TEIP5.xml), scheduled for Rajab 1327 aH (Jul/Aug 1909) was published only in the first week of April 1910 but it took only another week for [No. 4/8](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_43.TEIP5.xml) to appear.[^14] No. 4/9 and [4/10](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_45.TEIP5.xml) were then published within another month.[^4] Nevertheless there were still rather late (the latter should have been published in Shawwāl 1327 aH (Oct/Nov 1909)). [No. 4/12 (Dhu II 1327 aH [Dec 1909/ Jan 1910])](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_47.TEIP5.xml) was published at the beginning of July 1910, some seven months behind the schedule.[^6]
 
 Muḥammad Kurd ʿAlī and his staff seemingly entered another productive period in fall 1910, publishing eight "monthly" issues in three months:
 
-- *al-Muqtabas* 13 Sep. 1910 (#473) announced [no. 5/3](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_50.TEIP5.xml) that should have been published for/in Rab I 1328 aH (Mar/Apr 1910).[^7] But publication speed picked up and
-- only eleven days later, *al-Muqtabas* 24 Sep. 1910 (#482) announced the publication of [no. 5/4](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_51.TEIP5.xml), which contains [a speech delivered by Rafīq Bey al-ʿAẓm to the al-Quwwatlī Club on 14 Shaʿbān 1328 / 21 August 1910](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_51.TEIP5.xml#div_2.d1e1392).[^8]
-- *al-Muqtabas* 12 Dec. 1910 (#548) announced the publication of [no. 5/10](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_57.TEIP5.xml) of Shaw 1328 aH (Oct/Nov 1910).[^9]
+- *al-Muqtabas* 13 Sep. 1910 (#473) announced [no. 5/3](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_50.TEIP5.xml) that should have been published for/in Rab I 1328 aH (Mar/Apr 1910).[^7] But publication speed picked up and
+- only eleven days later, *al-Muqtabas* 24 Sep. 1910 (#482) announced the publication of [no. 5/4](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_51.TEIP5.xml), which contains [a speech delivered by Rafīq Bey al-ʿAẓm to the al-Quwwatlī Club on 14 Shaʿbān 1328 / 21 August 1910](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_51.TEIP5.xml#div_2.d1e1392).[^8]
+- *al-Muqtabas* 12 Dec. 1910 (#548) announced the publication of [no. 5/10](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_57.TEIP5.xml) of Shaw 1328 aH (Oct/Nov 1910).[^9]
 
 Production seemingly followed a monthly pattern as it took slightly less then six months to publish the next six issues (5/11 - 6/4):
 
 - *al-Muqtabas* 18 Jun. 1911 (#706) advertised Jamāl al-Dīn al-Qāsimī's three-partite article *al-fatwā fī al-islām* ([part one](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_61.TEIP5.xml#div_2.d1e1517), [two](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_62.TEIP5.xml#div_2.d1e1491), and [three](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_63.TEIP5.xml#div_7.d1e1810)) published in [no. 6/2 (Ṣafar 1329 / Feb 1911)](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_61.TEIP5.xml), [6/3](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_62.TEIP5.xml), and [6/4](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_63.TEIP5.xml) and mentioned that the copy of *Majallat al-Muqtabas* was sold for 1.5 *beşlik*s.[^10]
-- *al-Muqtabas* 1 Jul. 1911 / 4 Raj 1329 aH (#717) announced the publication of two issues, [no.6/5](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_64.TEIP5.xml) and [6/6](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_65.TEIP5.xml), which according to the publication schedule should have been published in late April and late May respectively.[^2]
+- *al-Muqtabas* 1 Jul. 1911 / 4 Raj 1329 aH (#717) announced the publication of two issues, [no.6/5](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_64.TEIP5.xml) and [6/6](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_65.TEIP5.xml), which according to the publication schedule should have been published in late April and late May respectively.[^2]
 
 [^14]:[{muqtabas 76-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6831;r=10426). It is important to note that an article in [4/2](https://github.com/tillgrallert/digital-muqtabas/blob/master/xml/oclc_4770057679-i_38.TEIP5.xml) scheduled for February/March 1909 was referenced in the newspaper [*al-Quds* #60 of 11 June 1909](http://www.palestine.mei.columbia.edu/alquds-issues/2017/2/21/issue-60).
 [^10]:[{muqtabas 274-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=7029;r=17843)
@@ -128,11 +128,13 @@ Production seemingly followed a monthly pattern as it took slightly less then si
 [^8]:[{muqtabas 188-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6943;r=5230)
 [^9]:[{muqtabas 200-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6955;r=4592). *al-Ḥaqāʾiq* 1(10),  1 Jum I 1329 aH, 17 Nīs 1327 R [30 Apr. 1911]:369-74 replied to an article in this issue of *al-Muqtabas*.
 
-Similar confusion shrouds the end of publication in mystery. As no publication dates were actually provided in the mastheads of individual issues and since the issue wrappers were mostly discarded upon binding the issues into volumes, the only surviving explicit dating is provided by the volumes' cover sheets. According to its covers sheet, volume 8 was published through 1332 aH, i.e. between December 1913 and November 1914. However an [article in issue 9](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_91.TEIP5.xml#p_98.d1e2707) reports on the inauguration of a Mosque in Berlin at the end of Ram 1333 aH (mid-August 1915). The same issue reviews a number of books printed in 1333 aH and [one book published in 1334 aH](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_91.TEIP5.xml#div_24.d1e3028) in addition to the announcement of a publication on the ["first year of the war"](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_91.TEIP5.xml#div_26.d1e3075), which would mean that it was not published before November 1915 (Muḥarram 1334 aH) and most likely in 1916. Issue 12 of the same volume even recorded a [notebook for the year 1917](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_94.TEIP5.xml#p_384.d1e4223) in the section on new books and publications, which also listed further books published in 1334 aH. The following issue continues this trend by publishing an [obituary for Shaykh ʿAbd al-Razzāq al-Bayṭār](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_95.TEIP5.xml#div_16.d1e2869), who died in Damascus on 10 Rab 1335 [4 January 1917].
+- In April 1912 the newspaper *al-Muqtabas* was banned from publication and an attempt was made to arrest Muḥammad Kurd ʿAlī over the re-print of a *qaṣīda* by Shaykh Ibrāhīm al-Uskūbī that had been previously published in the two Beiruti papers of *al-Waṭan* and *al-Balagh* without any repercussion from the censors. However, Muḥammad Kurd ʿAlī was seemingly warned by the arrest party itself and managed to escape to Egypt; his brother Aḥmad was arrested on 17 April in his stead and as the responsible editor of the newspaper *al-Muqtabas*. As a consequence, the publication of the journal *al-Muqtabas* moved to Cairo with [No. 7/6](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_77.TEIP5.xml).
+
+Similar confusion shrouds the end of publication in mystery. As no publication dates were actually provided in the mastheads of individual issues and since the issue wrappers were mostly discarded upon binding the issues into volumes, the only surviving explicit dating is provided by the volumes' cover sheets. According to its covers sheet, volume 8 was published through 1332 aH, i.e. between December 1913 and November 1914. However an [article in issue 9](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_91.TEIP5.xml#p_98.d1e2707) reports on the inauguration of a Mosque in Berlin at the end of Ram 1333 aH (mid-August 1915). The same issue reviews a number of books printed in 1333 aH and [one book published in 1334 aH](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_91.TEIP5.xml#div_24.d1e3028) in addition to the announcement of a publication on the ["first year of the war"](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_91.TEIP5.xml#div_26.d1e3075), which would mean that it was not published before November 1915 (Muḥarram 1334 aH) and most likely in 1916. Issue 12 of the same volume even recorded a [notebook for the year 1917](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_94.TEIP5.xml#p_384.d1e4223) in the section on new books and publications, which also listed further books published in 1334 aH. The following issue continues this trend by publishing an [obituary for Shaykh ʿAbd al-Razzāq al-Bayṭār](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_95.TEIP5.xml#div_16.d1e2869), who died in Damascus on 10 Rab 1335 [4 January 1917].
 
 ## 2.2 Moving publication between Cairo and Damascus.
 
-After the constitiutional revolution in the Ottoman Empire in July 1908, Muḥammad Kurd ʿAlī moved *al-Muqtabas* from Cairo to Damascus with the publication of no. [4/1](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_37.TEIP5.xml). <!-- After his initial enthusiasm for the Your Turks' project and the CUP vanished he  --> The final page of no. [7/6](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462) announced a (temporary) move back to Cairo.
+After the constitiutional revolution in the Ottoman Empire in July 1908, Muḥammad Kurd ʿAlī moved *al-Muqtabas* from Cairo to Damascus with the publication of no. [4/1](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_37.TEIP5.xml). <!-- After his initial enthusiasm for the Your Turks' project and the CUP vanished he  --> In consequence of Muḥammad Kurd ʿAlī being prosecuted over a reprinted article in the newspaper *al-Muqtabas* in April 1912, he fled to Cairo and (temporarily) moved the publication of the journal *al-Muqtabas* to the same location with no. [7/6](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462).
 
 ## 2.3 Known editions
 
@@ -179,6 +181,33 @@ Image files are available from the [*al-Aqṣā* Mosque's library in Jerusalem t
 > 
 > Note: There are no restrictions on use of text transcribed from the images, or paraphrased or translated using the images.
 
+### 3.1.3 [arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co)](archive.sakhrit.co)
+
+Recently, a colleague pointed me to another gray online library of Arabic material---one that was entirely dedicated to cultural and literary journals: [arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co)](archive.sakhrit.co). I have posted a review of the website on [my blog](https://tillgrallert.github.io/blog/2016/04/22/review-archive-sakhrit/).
+
+Among their collection is also the journal [*al-Muqtabas*](http://archive.sakhrit.co/newmagazineYears.aspx?MID=125) and they provide:
+
+1. Partially watermarked digital imagery
+2. Functional tables of content for each issue, including author, title, page number
+3. Some bibliographic metadata on the issue level
+
+After some assessment it turned out that at least volumes [4](http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/Al_moqtabs_1909/Issue_1/001.JPG) and  [5](http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/Al_moqtabs_1910/Issue_1/001.JPG), were indeed rendered from a modern digital text, namely shamela's transcription!
+
+Therefore archive.sakhrit is even more problematic than shamela in terms of scholarly use. The user is always aware of reading a derivative with an unknown relation to an assumed original while accessing a text from shamela. At archive.sakhrit, on the other hand, the user is deceived by a seemingly faithful representation of a fake original.
+
+In the future we will link to the archive.sakhrit's digital facsimiles for those volumes that have been scanned from the original. These are:
+
+- Vol. 1: links to this volume are of particular importance as no scans are availble from EAP and those from HathiTrust remain unaccessible to the majority of potential users.
+
+### 3.1.3 other sources
+
+- Institut du Monde Arabe: bibliothèque numérique. 
+    + The website was built quite some time ago and is not meant for large screens. All digitised materials are served through a tiny pop-up window (740 x 570 px) even though the proprietary viewer allows for much larger views.  
+    + The scans are of a terrible quality
+    + [vol. 1](http://viewer2.bibalex.org/BookViewer/?book_id=DAF-Job:224412&locale=en&EnableLogin=True)
+    + [vol. 3](http://viewer2.bibalex.org/BookViewer/?book_id=DAF-Job:224413&locale=en&EnableLogin=True)
+    + [vol. 4](http://viewer2.bibalex.org/BookViewer/?book_id=DAF-Job:224414&locale=en&EnableLogin=True)
+    + [vol. 5](http://viewer2.bibalex.org/BookViewer/?book_id=DAF-Job:224415&locale=en&EnableLogin=True)
 
 ## 3.2 Full text
 
@@ -187,9 +216,14 @@ Somebody took the pains to create fully searchable text files and uploaded every
 
 ### 3.2.1 [al-Maktaba al-Shāmila](http://www.shamela.ws)
 
-- Extent: According to the main [entry](http://shamela.ws/index.php/book/26523), *shamela* has all 96 issues. 
+The digital text of [*al-Muqtabas* on *shamela.ws*](http://shamela.ws/index.php/book/26523) comprises all 96 issues totalling some 1.9 million words. It was transcribed from either digital facsimiles or original copies by anonymous transcribers following undocumented editing principles. Comparison with the original print edition allows us to discern common transcription errors, such as missing lines or characters, which indicate that *shamela.ws*'s text was indeed transcribed by humans without quality control through double-keying usually required for scholarly transcriptions (see [no. 4(2), p.82](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_38.TEIP5.xml#p_60.d1e2238), [no. 4(3), p.158](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_39.TEIP5.xml#gap_1.d1e3111), and [no. 6(12), pp.799--800](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_71.TEIP5.xml#pb_126.d1e4373) for examples). The comparison also reveals that *shamela.ws* principally omitted mastheads, all words in Latin script (mainly technical terms and proper nouns) and all footnotes. 
+
+The transcription has a number of substantial and unmarked gaps, ranging from a single paragraph to multiple pages (see [no. 5(7), pp. 463--466](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_54.TEIP5.xml#pb_61.d1e2036) and [no. 5(12), pp. 761--765](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_59.TEIP5.xml#pb_51.d1e2281) for examples). Some of these could be due to pages missing from the original from which the transcribers worked or page-turning errors. Others remain enigmatic and might have been driven by editorial choices. Someone copy edited the transcription, adding punctuation marks absent from the original and *hamza*s not commonly found in the original and thus, inter alia, differentiating between *inna* and *anna*. Some geographic names were normalised.
+
+In terms of structural mark-up, *shamela.ws* did not provide but an ecclectic selection of top-level headers. Bibliographic metadata is all but nonexisting, since *shamela.ws* supplied faulty Gregorian publication dates and its own consecutive issue count that ignores the original collation into volumes.
+
 - Transcribers, editors: Apparently, they have been typed and copy-edited by unnamed humans. 
-- Features edition: paragraphs, page breaks, headlines.
+- Features edition: paragraphs, page breaks, some headlines.
 - Features interface:
     + all issues can be browsed for headlines and searched
     + all pages can be individually adressed in the browser: [http://shamela.ws/browse.php/book-26523#page-2290](http://shamela.ws/browse.php/book-26523#page-2290)
@@ -220,7 +254,7 @@ A simple way of controlling the quality of the basic structural mark-up would be
 2. Text-image linking: while the links to the facsimiles can be automatically generated for each issue, establishing page breaks (`<pb>`) must be done manually for all 6.000+ of them
 
 
-# 5. Deliverable: A [web display](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml) adapting TEI Boilerplate
+# 5. Deliverable: A [web display](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_1.TEIP5.xml) adapting TEI Boilerplate
 
 To allow a quick review of the mark-up and read the journal's content, I decided to customise [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) for a first display of the TEI files in the browser without need for pre-processed HTML and to host this heavily customised boilerplate view as another [GitHub repository](https://www.github.com/tillgrallert/tei-boilerplate-arabic-editions) to be re-used. 
 
