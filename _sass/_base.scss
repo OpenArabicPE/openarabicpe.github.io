@@ -129,6 +129,8 @@ blockquote {
 table {
     padding-right: 1em;
     padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     display: block;
     border-collapse:collapse;
     // width:80%;
@@ -141,6 +143,7 @@ th {
 tr {
   display: table-row;
 }
+th,
 td {
     display:table-cell;
     width:auto;
@@ -148,6 +151,12 @@ td {
     padding-left: 0.5em;
     border-right: 1px solid #959595;
     border-left: 1px solid #959595;
+}
+td:first-child{
+    border-right: none !important;
+}
+td:last-child{
+    border-left: none !important;
 }
 
 
