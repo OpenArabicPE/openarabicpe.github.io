@@ -37,6 +37,8 @@ highlighter: rouge
 
 # pagination should work with "paginate: 5"
 paginate: 10
+# show post excerpts
+show_excerpts: true
 
 # Default values
 defaults:
@@ -59,4 +61,5 @@ data_dir: ./_data
 whitelist: []
 gems: []
 
-theme: beautiful-jekyll
+# Themes: minima is the standard theme
+theme: minima
