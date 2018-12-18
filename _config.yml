@@ -62,4 +62,7 @@ whitelist: []
 gems: []
 
 # Themes: minima is the standard theme
-theme: minima
+## built-in themes
+#theme: minima
+## remote themes: themes hosted on github
+remote_theme: beautiful-jekyll
