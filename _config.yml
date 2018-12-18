@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: digital muqtabas — المقتبس الرقمي
+title: "OpenArabicPE: Open Arabic Periodical Editions"
 email: grallert@orient-institut.org
 description: >
-  A digital edition (TEI XML) of the Arabic monthly journal al-Muqtabas, published by Muḥammad Kurd ʿAlī in Cairo and Damascus between 1906 and 1917/18
+  "a framework for bootstrapped scholarly editions outside the global north"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://openarabicpe.github.io" # the base hostname & protocol for your site
 
 # author information
 author: Till Grallert
-bio: Research associate (PhD in History, Freie Universität Berlin, 2014) at Orient Institut Beirut. He is a student of the social and urban history of *Bilād al-Shām* in late Ottoman times. He currently works on a genealogy of food riots as a repertoire of contention between the mid-eighteenth and the mid-twentieth centuries
+bio: "Research associate (PhD in History, Freie Universität Berlin, 2014) at Orient Institut Beirut. He is a student of the social and urban history of *Bilād al-Shām* in late Ottoman times. He currently works on a genealogy of food riots as a repertoire of contention between the mid-eighteenth and the mid-twentieth centuries"
 
 twitter_username: tillgrallert
 github_username:  tillgrallert
@@ -36,9 +36,11 @@ markdown: kramdown # pandoc
 highlighter: rouge
 
 # pagination should work with "paginate: 5"
+paginate: 10
+# show post excerpts
+show_excerpts: true
 
 # Default values
-
 defaults:
   -
     scope:
@@ -58,3 +60,9 @@ data_dir: ./_data
 # Plugins
 whitelist: []
 gems: []
+
+# Themes: minima is the standard theme
+## built-in themes
+#theme: minima
+## remote themes: themes hosted on github
+remote_theme: beautiful-jekyll
