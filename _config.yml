@@ -8,8 +8,7 @@
 # Site settings
 title: "OpenArabicPE: Open Arabic Periodical Editions"
 email: grallert@orient-institut.org
-description: >
-  "a framework for bootstrapped scholarly editions outside the global north"
+description: "a framework for bootstrapped scholarly editions outside the global north"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://openarabicpe.github.io" # the base hostname & protocol for your site
 
@@ -25,7 +24,7 @@ disqus_shortname: sitzextase
 # Build settings
 # Outputting
 permalink:  /blog/:year/:month/:day/:title/ # default value: date; built-in values: date, pretty, ordinal, none
-paginate_path: /page:num
+paginate_path: "blog/page:num"
 timezone:    null
 quiet:    false
 defaults: []
