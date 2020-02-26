@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "How to search"
 author: Till Grallert
 date: 2020-02-27
