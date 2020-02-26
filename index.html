@@ -1,24 +1,22 @@
 ---
 layout: page
-title: "blog"
-author: Till Grallert
-date: 2016-04-16
+title: Open Arabic Periodical Editions
+subtitle: A framework for bootstrapped digital scholarly editions outside the global north
+use-site-title: true
+bigimg: /assets/images/muqtabas-v_6-i_2-xml-and-boilerplate.png
 ---
 
-## recent posts:
-
 <div class="posts-list">
-{% for post in site.categories['blog'] %}
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title | markdownify }}</h2>
+	  <h2 class="post-title">{{ post.title | markdownify }}</h2>
 
-      {% if post.subtitle %}
-      <h3 class="post-subtitle">
-        {{ post.subtitle | markdownify }}
-      </h3>
-      {% endif %}
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle | markdownify }}
+	  </h3>
+	  {% endif %}
     </a>
 
     <p class="post-meta">
@@ -57,7 +55,6 @@ date: 2016-04-16
 
    </article>
   {% endfor %}
-{% endfor %}
 </div>
 
 {% if paginator.total_pages > 1 %}

@@ -1,67 +1,41 @@
 ---
 layout: page
-title: "editions"
+title: "Editions"
 author: Till Grallert
-date: 2018-12-18
+date: 2020-02-26 22:43:36 +0200
 ---
 
-## Digital *Muqtabas*: An open, collaborative, and scholarly digital edition of Muḥammad Kurd ʿAlī's early Arabic periodical *Majallat al-Muqtabas* (1906--1917/18)
+# Current projects
 
-[![GitHub release](https://img.shields.io/github/release/tillgrallert/digital-muqtabas.svg)](https://github.com/tillgrallert/digital-muqtabas/releases)
-[![DOI](https://zenodo.org/badge/45922152.svg)](https://zenodo.org/badge/latestdoi/45922152)
+|       periodical       |    OCLC    |          DOI           |               repository              |                                                                                     latest release                                                                                    |    type   |   level   |
+|------------------------|------------|------------------------|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------|
+| al-Ḥaqāʾiq             |  644997575 | [10.5281/zenodo.1232016](https://doi.org/10.5281/zenodo.1232016) | [digital-haqaiq](https://www.github.com/openarabicpe/digital-haqaiq)                  | [![GitHub release](https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg)](https://github.com/openarabicpe/digital-haqaiq/releases)                                   | journal   | 3.2.2.1.1 |
+| al-Muqtabas            | 4770057679 | [10.5281/zenodo.597319](https://doi.org/10.5281/zenodo.597319)  | [digital-muqtabas](https://www.github.com/tillgrallert/digital-muqtabas)                | [![GitHub release](https://img.shields.io/github/release/tillgrallert/digital-muqtabas.svg)](https://github.com/tillgrallert/digital-muqtabas/releases)                               | journal   | 3.2.2.1.1 |
+| al-Ḥasnāʾ              |  792756327 | [10.5281/zenodo.3556246](https://doi.org/10.5281/zenodo.3556246) | [journal_al-hasna](https://www.github.com/openarabicpe/journal_al-hasna)                | [![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-hasna.svg)](https://github.com/openarabicpe/journal_al-hasna/releases)                               | journal   | 3.2.2.0.1 |
+| al-Hilāl               |            |                        | [journal_al-hilal](https://www.github.com/openarabicpe/journal_al-hilal)                | [![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-hilal.svg)](https://github.com/openarabicpe/journal_al-hilal/releases)                               | journal   |           |
+| al-Jinān               |            | [10.5281/zenodo.1167877](https://doi.org/10.5281/zenodo.1167877) | [journal_al-jinan](https://www.github.com/openarabicpe/journal_al-jinan)                | [![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-jinan.svg)](https://github.com/openarabicpe/journal_al-jinan/releases)                               | journal   |           |
+| al-Manār               |    1588981 |                        | [journal_al-manar](https://www.github.com/openarabicpe/journal_al-manar)                | [![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-manar.svg)](https://github.com/openarabicpe/journal_al-manar/releases)                               | journal   | 3.2.2.1.1 |
+| al-Ustādh              | 1036721166 | [10.5281/zenodo.3581028](https://doi.org/10.5281/zenodo.3581028) | [journal_al-ustadh](https://www.github.com/openarabicpe/journal_al-ustadh)               | [![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-ustadh.svg)](https://github.com/openarabicpe/journal_al-ustadh/releases)                             | journal   | 3.2.2.1.1 |
+| al-Zuhūr               | 1034545644 | [10.5281/zenodo.3580606](https://doi.org/10.5281/zenodo.3580606) | [journal_al-zuhur](https://www.github.com/openarabicpe/journal_al-zuhur)                | [![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-zuhur.svg)](https://github.com/openarabicpe/journal_al-zuhur/releases)                               | journal   | 3.2.2.1.1 |
+| Lughat al-ʿArab        |  472450345 | [10.5281/zenodo.3514384](https://doi.org/10.5281/zenodo.3514384) | [journal_lughat-al-arab](https://www.github.com/openarabicpe/journal_lughat-al-arab)          | [![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_lughat-al-arab.svg)](https://github.com/openarabicpe/journal_lughat-al-arab/releases)                   | journal   | 3.2.2.1.1 |
+| al-ʿAṣr al-Jadīd       |            |                        | [newspaper_al-asr-al-jadid](https://www.github.com/openarabicpe/newspaper_al-asr-al-jadid)       | [![GitHub release](https://img.shields.io/github/release/openarabicpe/newspaper_al-asr-al-jadid.svg)](https://github.com/openarabicpe/newspaper_al-asr-al-jadid/releases)             | newspaper | 3.3.0.0.0 |
+| al-Ittiḥād al-ʿUthmānī |            |                        | [newspaper_al-ittihad-al-uthmani](https://www.github.com/openarabicpe/newspaper_al-ittihad-al-uthmani) | [![GitHub release](https://img.shields.io/github/release/openarabicpe/newspaper_al-ittihad-al-uthmani.svg)](https://github.com/openarabicpe/newspaper_al-ittihad-al-uthmani/releases) | newspaper | 3.3.0.0.0 |
+| al-Muqtabas            |            |                        | [newspaper_al-muqtabas](https://www.github.com/openarabicpe/newspaper_al-muqtabas)           | [![GitHub release](https://img.shields.io/github/release/openarabicpe/newspaper_al-muqtabas.svg)](https://github.com/openarabicpe/newspaper_al-muqtabas/releases)                     | newspaper | 3.3.0.0.0 |
+| al-Quds                |            |                        | [newspaper_al-quds](https://www.github.com/openarabicpe/newspaper_al-quds)               | [![GitHub release](https://img.shields.io/github/release/openarabicpe/newspaper_al-quds.svg)](https://github.com/openarabicpe/newspaper_al-quds/releases)                             | newspaper | 3.3.0.0.0 |
+| Ḥadīqat al-Akhbār      |            |                        | [newspaper_hadiqat-al-akhbar](https://www.github.com/openarabicpe/newspaper_hadiqat-al-akhbar)     | [![GitHub release](https://img.shields.io/github/release/openarabicpe/newspaper_hadiqat-al-akhbar.svg)](https://github.com/openarabicpe/newspaper_hadiqat-al-akhbar/releases)         | newspaper | 3.3.0.0.0 |
+| Thamarāt al-Funūn      |            |                        | [newspaper_thamarat-al-funun](https://www.github.com/openarabicpe/newspaper_thamarat-al-funun)     | [![GitHub release](https://img.shields.io/github/release/openarabicpe/newspaper_thamarat-al-funu.svg)](https://github.com/openarabicpe/newspaper_thamarat-al-funu/releases)           | newspaper | 3.3.0.0.0 |
 
-Quick links:
+# Descriptive statistics
 
-- [GitHub repository](https://github.com/tillgrallert/digital-muqtabas/)
-- [Webview *al-Muqtabas* 1(1) (text, facsimile)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_1.TEIP5.xml),
-- [Zotero group "OpenArabicPE/digital-muqtabas" (bibliographic metadata)](https://www.zotero.org/groups/openarabicpe/items/collectionKey/8SINFUW9)
+The following descriptive statistics for our corpus of journal editions in were generated in R.
 
-Digital Muqtabas comprises the TEI edition of all 96 issues of Muhammad Kurd Ali's monthly journal *al-Muqtabas* (The Digest / Acquired Learning) published between 1906 and 1917/18.
-
-|         token          |   total   | has.author |
-|------------------------|-----------|------------|
-| volumes                | 9         |            |
-| issues                 | 96        |            |
-| pages                  | c.7,000   |            |
-| articles (total)       | 2,737     | 323        |
-| articles (independent) | 717       | 284        |
-| words                  | 1,953,952 | 625,333    |
-
-Table: Statistics for *al-Muqtabas*
-
-Muhammad Kurd Ali (1876–1953) was the best known and, after the Young Turk Revolution of 1908, the most influential journalist and intellectual in Damascus. Before establishing his own journal *al-Muqtabas* in Cairo in 1906 and the first daily newspaper to be published in Damascus in 1908 (also confusingly called *al-Muqtabas*), he had held minor government offices and worked at various public and private presses and periodicals in Damascus and Cairo. He was well-acquainted with leading figures of the Islamic reform movement in Egypt and Greater Syria, like Tahir al-Jaza'iri, Rashid Rida and Muhammad Abduh "senior circle" in the early 1890s in Damascus and later moved and worked in Rashīd Riḍā's and Muhammad ʿAbduh's circles in Cairo. After the Young Turk Revolution, Kurd Ali returned to his hometown and publication of *al-Muqtabas* moved from Cairo to Damascus in the journal's third year. In Damascus, *al-Muqtabas* soon became "the boldest, most coherent, consistent and committed proponent of reform and modernity [...] prior to World War I".[^6] Due to conflicts with the authorities over the reprint of a poem, Kurd Ali again fled Damascus for Cairo and Europe in 1912. Consequently, *al-Muqtabas* was published from Cairo for a couple of months before Kurd Ali was allowed to return once again. During World War I and Cemal Pasha's infamous term as commander-in-chief of the 4th Army and governor general of Syria, Kurd Ali was able to win his support. He thus escaped the fate of Shukri al-Asali, Abd al-Ghani al-Uraysi and other journalists from Beirut and Damascus, who were publicly executed on charges of treason. Similarly to their editor, the journal and the newspaper *al-Muqtabas* survived and continued publication until the final days of the war---albeit in shorter and less frequent editions due to material shortages. After the end of the war and the disintegration of the Ottoman Empire, Kurd Ali abandoned the monthly and left the editorship of the revived daily newspaper *al-Muqtabas* to his brother Ahmad.[^7] He founded the Arab Scientific Academy whose president he became in 1919 and served twice as Minister of Education (1920–22, 1928–32) during the French Mandate over Syria.
-
-[^6]: [@Seikaly_1981, 128]
-[^7]: [@Ayalon_1995, 84]
-
-## Digital *Ḥaqāʾiq*: An open, collaborative, and scholarly digital edition of ʿAbd al-Qādir al-Iskandarānī's monthly journal *al-Ḥaqāʾiq* (Damascus, 1910--1913)
-
-[![GitHub release](https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg?maxAge=2592000)](https://github.com/openarabicpe/digital-haqaiq/releases)
-[![DOI](https://zenodo.org/badge/52619834.svg)](https://zenodo.org/badge/latestdoi/52619834)
-
-Quick links:
-
-- [GitHub repository](https://github.com/openarabicpe/digital-haqaiq/)
-- [Webview *al-Ḥaqāʾiq* 1(1) (text, facsimile)](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml),
-- [Zotero group "OpenArabicPE/digital-haqaiq" (bibliographic metadata)](https://www.zotero.org/groups/openarabicpe/items/collectionKey/8SINFUW9)
-
-Digital Ḥaqāʾiq comprises the TEI edition of all 36 issues of *al-Ḥaqāʾiq* published by ʿAbd al-Qādir al-Iskandarānī in Damascus.
-
-|  token   |  total  | has.author |
-|----------|---------|------------|
-| volumes  | 3       |            |
-| issues   | 36      |            |
-| pages    | 1,446   |            |
-| articles | 360     | 76         |
-| words    | 300,186 | 40,868     |
-
-Table: Statistics for *al-Ḥaqāʾiq*
-
-ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. The final issue of volume 3 contains the reference "will be continued ..." under several articles (e.g. [here](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_35.TEIP5.xml#div_9.d1e1511) and [here](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_35.TEIP5.xml#div_10.d1e1618)). According to some library catalogues---while stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
-
-[^1]: Thomsen, P. "Verzeichnis der Arabischen Zeitungen und Zeitschriften Palästinas." *Zeitschrift des Deutschen Palästina-Vereins (1878-1945)* 35, no. 4 (1912):214
-
-
-*al-Ḥaqāʾiq* was a monthly journal and followed the Islamic calendar. Each issue carried information on month and year in its masthead but no specific publication date. Few articles mention datable events; but occasionally one is able to track referenced newspaper issues: [Issue 2/10 of *Jumādā al-Ūlā 1330*](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_22.TEIP5.xml) contains two articles reacting to the conflagration of *Sūq al-Ḥamīdiyya* in Damascus on 27 April 1912 (10 Jum I 1330 aH).
-
-There is an, as of yet, unexplained six-month gap in publication between June and December 1912.
+| publication.title   | publication.id.oclc   | volumes | issues | articles | words   | words.per.article | articles.with.author.per.cent | author.count | author.birth.avg | author.death.avg |
+| ------------------- | --------------------- | ----:   | ----:  | ----:    | ----:   | ----:             | ----:                         | ----:        | ----:            | ----:            |
+| al-Ḥaqāʾiq          | 644997575             | 3       | 35     | 389      | 298090  | 832.66            | 41.90                         | 104          | 1837.53          | 1905.93          |
+| al-Ḥasnāʾ           | 792756327             | 1       | 12     | 201      | 743     | NA                | 37.31                         | 50           | 1883.14          | 1947.17          |
+| al-Manār            | 1588981               | 35      | 537    | 4300     | 6144593 | 1437.73           | 87.14                         | 356          | 1870.96          | 1913.5           |
+| al-Muqtabas         | 4770057679            | 9       | 96     | 2964     | 1981081 | 873.34            | 12.72                         | 140          | 1855.94          | 1929.48          |
+| al-Ustādh           | 1036721166            | 1       | 42     | 435      | 221447  | 582.21            | 5.52                          | 8            | NA               | NA               |
+| al-Zuhūr            | 1034545644            | 4       | 39     | 436      | 292333  | 695.09            | 41.51                         | 112          | 1872.96          | 1939.52          |
+| Lughat al-ʿArab     | 472450345             | 3       | 34     | 939      | 373832  | 485.21            | 16.19                         | 53           | 1875.8           | 1942.1           |
+| **total**           |                       | 56      | 795    | 9664     | 9311376 |                   |                               |              |                  |                  |

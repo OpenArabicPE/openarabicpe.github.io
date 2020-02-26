@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "v0.1 of (*majallat*) *al-Muqtabas*: volume 6"
+title: "v0.1 of (*majallat*) *al-Muqtabas*"
+subtitle: "Volume 6"
 author: Till Grallert
 date: 2017-02-01
 categories: releases

@@ -3,7 +3,7 @@ layout: post
 title: "How to contribute to Digital Muqtabas"
 author: Till Grallert
 date: 2016-04-24 22:45:32 +0300
-categories: 
+categories:
 - blog
 - workflow
 tags:
@@ -18,4 +18,4 @@ tags:
 4. Send us a *pull request*
 5. We will review and merge your changes.
 
-{% include image.html url="/assets/images/github_branches-1.png" description="Branches on GitHub" class=""  %}
+![Branches on GitHub](/assets/images/github_branches-1.png)

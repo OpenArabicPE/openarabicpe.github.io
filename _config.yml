@@ -1,67 +1,261 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# --- General options --- #
 
-# Site settings
-title: "OpenArabicPE: Open Arabic Periodical Editions"
-email: grallert@orient-institut.org
-description: "a framework for bootstrapped scholarly editions outside the global north"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://openarabicpe.github.io" # the base hostname & protocol for your site
+# Name of website
+title: Open Arabic Periodical Editions
 
-# author information
-author: Till Grallert
-bio: "Research associate (PhD in History, Freie Universität Berlin, 2014) at Orient Institut Beirut. He is a student of the social and urban history of *Bilād al-Shām* in late Ottoman times. He currently works on a genealogy of food riots as a repertoire of contention between the mid-eighteenth and the mid-twentieth centuries"
+# Short description of your site
+description: A framework for bootstrapped digital scholarly editions outside the global north
 
-twitter_username: tillgrallert
-github_username:  tillgrallert
-faceboook_username: till.grallert
-disqus_shortname: sitzextase
+# --- Local development options ---
+# If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
+# *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
-# Build settings
-# Outputting
-permalink:  /blog/:year/:month/:day/:title/ # default value: date; built-in values: date, pretty, ordinal, none
-paginate_path: "blog/page:num"
-timezone:    null
-quiet:    false
-defaults: []
+# url is the the website domain URL without a trailing slash
+#url: "https://example.com"
 
-# Markdown settings
-markdown: kramdown # pandoc
-# markdown: redcarpet
+# baseurl should be an empty string
+#baseurl: ""
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  About: "pages/about"
+  Editions: 
+    - Overview: "pages/editions"
+    - al-Ḥaqāʾiq: "https://www.github.com/openarabicpe/digital-haqaiq"
+    - al-Muqtabas: "https://www.github.com/tillgrallert/digital-muqtabas"
+    - al-Manār: "https://www.github.com/openarabicpe/journal_al-manar"
+    - al-Ustādh: "https://www.github.com/openarabicpe/journal_al-ustadh"
+    - al-Zuhūr: "https://www.github.com/openarabicpe/journal_al-zuhur"
+    - Lughat al-ʿArab: "https://www.github.com/openarabicpe/journal_lughat-al-arab"
+  Zotero group: "https://www.zotero.org/groups/904125/openarabicpe/items"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+# avatar: "/img/avatar-icon.png"
+
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
+# --- Background colour/image options --- #
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+
+# navbar-img: "/img/bgimage.png"
+# footer-img: "/img/bgimage.png"
+# page-img: "/img/bgimage.png"
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: Till Grallert
+
+# Select your active Social Network Links.
+# Uncomment the links you want to show in the footer and add your information to each link.
+# You can reorder the items to define the link order.
+# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+social-network-links:
+  rss: true
+  email: "till.grallert@fu-berlin.de"
+  #facebook: deanattali
+  github: openarabicpe
+  twitter: tillgrallert
+#  reddit: yourname
+#  linkedin: yourname
+#  xing: yourname
+#  stackoverflow: "yourname"
+#  snapchat: yourname
+#  instagram: yourname
+#  youtube: user/yourname
+#  spotify: yourname
+#  telephone: phone number
+#  steam: yourname
+#  twitch: yourname
+#  yelp: yourname
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: false
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "openarabicpe.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+
+# --- Web Statistics Section --- #
+
+# Fill in your Google Analytics gtag.js ID to track your website using gtag
+#gtag: ""
+
+# Fill in your Google Analytics ID to track your website using GA
+#google_analytics: ""
+
+# Google Tag Manager ID
+#gtm: ""
+
+# Matomo (aka Piwik) Web statistics
+# Uncomment the following section to enable Matomo. The opt-out parameter controls
+# whether or not you want to allow users to opt out of tracking.
+
+#matomo:
+#  site_id: "9"
+#  uri: "demo.wiki.pro"
+#  opt-out: true
+
+# --- Comments --- #
+
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+# disqus: ""
+
+# If you want to use JustComments fill with the API Key
+#just-comments: "ABCD-EFGH-IJKL"
+
+# To use Facebook Comments, fill in a Facebook App ID
+# fb_comment_id: ""
+
+# To use Staticman comments, fill in repository, branch, and endpoint
+staticman:
+  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+  reCaptcha:
+    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
+    # If you use reCaptcha, you must also set these parameters in staticman.yml
+    siteKey  : # Use your own site key, you need to apply for one on Google
+    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+
+# --- Misc --- #
+
+# Facebook App ID
+# fb_app_id: ""
+
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 100
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
+
+# Ruby Date Format
+date_format: "%B %-d, %Y"
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "Asia/Beirut"
+markdown: kramdown
 highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 9
 
-# pagination should work with "paginate: 5"
-paginate: 10
-# show post excerpts
-show_excerpts: true
+kramdown:
+  input: GFM
 
-# Default values
+# Default YAML values (more information on Jekyll's site)
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
       type: "posts"
     values:
-      layout: "default"
-      author: Till Grallert
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
 
-# Where things are
-source:      .
-destination: ./_site
-plugins_dir:     ./_plugins
-layouts_dir:     ./_layouts
-data_dir: ./_data
+# Use tags index page and make tags on each post clickable
+link-tags: true
 
-# Plugins
-whitelist: []
-gems: []
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
 
-# Themes: minima is the standard theme
-## built-in themes
-#theme: minima
-## remote themes: themes hosted on github
-remote_theme: beautiful-jekyll
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189

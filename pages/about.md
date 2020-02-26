@@ -1,12 +1,14 @@
 ---
-layout: default
-title: "about"
+layout: page
+title: "Open Arabic Periodical Editions (OpenArabicPE)"
+subtitle: "A framework for open, collaborative, and scholarly digital editions of early Arabic periodicals"
 author: Till Grallert
 date: 2018-12-17 16:41:11 +0200
-# permalink: /about/
+bigimg: /assets/images/OpenArabicPE_components-layer-1-4.png
 ---
 
-# A framework for open, collaborative, and scholarly digital editions of early Arabic periodicals
+{: .box-note}
+**Note:** This text was copied from the `read me` of our edition of Muḥammad Kurd ʿAlī's journal [*al-Muqtabas*](https://github.com/tillgrallert/digital-muqtabas) and is in urgent need of updating.
 
 In the context of the current onslaught cultural artifacts in the Middle East face from the iconoclasts of the Islamic State, from the institutional neglect of states and elites, and from poverty and war, digital preservation efforts promise some relief as well as potential counter narratives. They might also be the only resolve for future education and rebuilding efforts once the wars in Syria, Iraq or Yemen come to an end.
 
@@ -14,7 +16,7 @@ Early Arabic periodicals, such as Butrus al-Bustānī's *al-Jinān* (Beirut, 187
 
 With the [GitHub-hosted TEI edition of *Majallat al-Muqtabas*](https://github.com/tillgrallert/digital-muqtabas 'current state of the project') we want to show that through re-purposing available and well-established open software and by bridging the gap between immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers and academic scanning efforts as well as editorial expertise, one can produce scholarly editions that remedy the short-comings of either world with very little funding: We use [digital texts from *shamela.ws*](http://shamela.ws/index.php/book/26523), transform them into TEI XML, add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link them to facsimiles provided through the [British Library's "Endangered Archives Programme"](http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63) and [HathiTrust](http://catalog.hathitrust.org/Record/100658549) (in the process of which we also make first corrections to the transcription). The digital edition (TEI XML and a basic web display) is then hosted as a GitHub repository with a [CC BY-SA 4.0 licence](http://creativecommons.org/licenses/by-sa/4.0/).
 
-By linking images to the digital text, every reader can validate the quality of the transcription against the original, thus overcoming the greatest limitation of crowd-sourced or gray transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub's core functionality. Editions will be referencable down to the word level for scholarly citations, annotation layers, as well as web-applications through a documented URI scheme.[^3] The [web-display](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_60.TEIP5.xml) is implemented through a customised adaptation of the [TEI Boilerplate XSLT stylesheets](http://dcl.slis.indiana.edu/teibp/); it can be downloaded, distributed and run locally without any internet connection---a necessity for societies outside the global North. Finally, by sharing all our code (mostly XSLT) in addition to the XML files, we hope to facilitate similar projects and digital editions of further periodicals, namely Rashīd Riḍā's *al-Manār*.
+By linking images to the digital text, every reader can validate the quality of the transcription against the original, thus overcoming the greatest limitation of crowd-sourced or gray transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub's core functionality. Editions will be referencable down to the word level for scholarly citations, annotation layers, as well as web-applications through a documented URI scheme.[^3] The [web-display](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_1.TEIP5.xml) is implemented through a customised adaptation of the [TEI Boilerplate XSLT stylesheets](http://dcl.slis.indiana.edu/teibp/); it can be downloaded, distributed and run locally without any internet connection---a necessity for societies outside the global North. Finally, by sharing all our code (mostly XSLT) in addition to the XML files, we hope to facilitate similar projects and digital editions of further periodicals, namely Rashīd Riḍā's *al-Manār*.
 
 [^3]:Currently we provide stable URLs down to the paragraph level. For more details see the [documentation of the mark-up](documentation_tei-markup.md)
 
@@ -260,13 +262,9 @@ To allow a quick review of the mark-up and read the journal's content, I decided
 
 The webview provides a parallel display of either online or local facsimiles and the text of *al-Muqtabas*. It includes a fully functional table of contents, stable links to all section and article heads, and links to bibliographic metadata for every article. For a first impression see [*al-Muqtabas* 6(2)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_62.TEIP5.xml).
 
-<!-- ![webview of [*al-Muqtabas* 6(2)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_62.TEIP5.xml)](assets/images/boilerplate_muqtabas-1.jpg) -->
+![webview of [*al-Muqtabas* 6(2)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_62.TEIP5.xml)](/assets/images/boilerplate_muqtabas-1.jpg)
 
-{% include image.html url="/assets/images/boilerplate_muqtabas-1.jpg" description="webview of *al-Muqtabas* 6(2)" %}
-
-<!-- ![webview of [*al-Muqtabas* 6(2)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_62.TEIP5.xml) with expanded table of content](assets/images/boilerplate_muqtabas-2.jpg) -->
-
-{% include image.html url="/assets/images/boilerplate_muqtabas-2.jpg" description="webview of *al-Muqtabas* 6(2)" %}
+![webview of [*al-Muqtabas* 6(2)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_62.TEIP5.xml) with expanded table of content](/assets/images/boilerplate_muqtabas-2.jpg)
 
 A detailed description of the web display is available [here](https://github.com/tillgrallert/digital-muqtabas/blob/master/notes-web-display.md).
 
@@ -274,17 +272,13 @@ User will, of course, want to search the edition for specific terms and will imm
 
 - the [GitHub repository](https://github.com/tillgrallert/digital-muqtabas), which allows for browsing and searching and displays search results in context.
 
-<!-- ![Search the GitHub repository](assets/images/search-github.jpg) -->
-
-{% include image.html url="/assets/images/search-github.jpg" description="Search the GitHub repository" %}
+![Search the GitHub repository](/assets/images/search-github.jpg)
 
 - Google's web search provides a [`site:` operator](https://moz.com/blog/25-killer-combos-for-googles-site-operator) that can be extensively manipulated:
     + [`site:https://github.com/tillgrallert/digital-muqtabas/blob/master search string`](site:https://github.com/tillgrallert/digital-muqtabas/blob/master) will search all files in the Digital Muqtabas repository.
     + add [`filetype:xml`](site:https://github.com/tillgrallert/digital-muqtabas/blob/master filetype:xml) to search only XML files. Other options would be `filetype:md` for plain text markdown files, `filetype.bib` for BibTeX files etc.
 
-<!-- ![Search Google with the `site:` operator](assets/images/search-google.jpg) -->
-
-{% include image.html url="/assets/images/search-google.jpg" description="Search Google with the `site:` operator" %}
+![Search Google with the `site:` operator](/assets/images/search-google.jpg)
 
 - a public [Zotero group](https://www.zotero.org/groups/digital-muqtabas/items/) comprising bibliographic metadata for all articles and sections, including author names, titles, publication dates, volume and issue numbers etc., including links to the webview.
 
