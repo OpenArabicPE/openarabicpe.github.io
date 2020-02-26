@@ -1,0 +1,25 @@
+# ignore image files
+./images/
+.jpg
+.jpeg
+*.tif
+*.tiff
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# project
+_site/
+.jekyll-metadata
+.sass-cache/
+metadata/
+xml/
+tei/
+.vagrant
+xslt*/
+
+
+
+
