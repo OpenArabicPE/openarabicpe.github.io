@@ -6,6 +6,7 @@ author: Till Grallert
 date: 2017-02-01
 gh-repo: tillgrallert/digital-muqtabas
 gh-badge: [star, fork, follow]
+avatar: /assets/images/title_muqtabas.png
 categories: releases
 tags:
 - xml
