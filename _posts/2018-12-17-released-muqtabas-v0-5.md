@@ -3,6 +3,8 @@ layout: post
 title: "v0.5 of (*majallat*) *al-Muqtabas*: volume 3"
 author: Till Grallert
 date: 2018-12-17
+gh-repo: tillgrallert/digital-muqtabas
+gh-badge: [star, fork, follow]
 categories: releases
 tags:
 - xml
@@ -24,7 +26,7 @@ We just released v0.5 of the journal *al-Muqtabas*. This release includes struct
 
 I wish to express my gratitude to the following contributors, who helped with the mark-up of page breaks:
 
-- Manzi Tanna-Händel: 
+- Manzi Tanna-Händel:
     + volume 1, issues 10 to 12.
     + volume 3, issues 8 to 12.
 - Layla Youssef: volume 4, issues 7 to 12.

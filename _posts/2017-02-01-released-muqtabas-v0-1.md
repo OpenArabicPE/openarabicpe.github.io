@@ -4,6 +4,8 @@ title: "v0.1 of (*majallat*) *al-Muqtabas*"
 subtitle: "Volume 6"
 author: Till Grallert
 date: 2017-02-01
+gh-repo: tillgrallert/digital-muqtabas
+gh-badge: [star, fork, follow]
 categories: releases
 tags:
 - xml

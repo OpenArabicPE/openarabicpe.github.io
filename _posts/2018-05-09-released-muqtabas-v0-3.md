@@ -3,6 +3,8 @@ layout: post
 title: "v0.3 of (*majallat*) *al-Muqtabas*: volume 4"
 author: Till Grallert
 date: 2018-05-09
+gh-repo: tillgrallert/digital-muqtabas
+gh-badge: [star, fork, follow]
 categories: releases
 tags:
 - xml

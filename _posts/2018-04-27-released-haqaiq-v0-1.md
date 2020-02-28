@@ -3,6 +3,8 @@ layout: post
 title: "v0.1 of *al-Ḥaqāʾiq*: volume 1"
 author: Till Grallert
 date: 2018-04-27
+gh-repo: openarabicpe/digital-haqaiq
+gh-badge: [star, fork, follow]
 categories: releases
 tags:
 - xml
