@@ -29,10 +29,10 @@ navbar-links:
     - al-Ustādh: "https://www.github.com/openarabicpe/journal_al-ustadh"
     - al-Zuhūr: "https://www.github.com/openarabicpe/journal_al-zuhur"
     - Lughat al-ʿArab: "https://www.github.com/openarabicpe/journal_lughat-al-arab"
+  Zotero group: "https://www.zotero.org/groups/904125/openarabicpe/items"
   How-to:
     - Contribute: "pages/how-to/contribute"
     - Search: "pages/how-to/search"
-  Zotero group: "https://www.zotero.org/groups/904125/openarabicpe/items"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
