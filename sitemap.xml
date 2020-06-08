@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- link to the sitemap of every edition -->
+    <!-- al-Ḥaqāʾiq -->
+    <sitemap>
+        <loc>https://openarabicpe.github.io/digital-haqaiq/sitemap.xml</loc>
+        <lastmod>2020-06-08 17:56:07 +0200</lastmod>
+    </sitemap>
+    <!-- al-Manār -->
+    <sitemap>
+        <loc>https://openarabicpe.github.io/journal_al-manar/sitemap.xml</loc>
+        <lastmod>2020-06-08 17:56:07 +0200</lastmod>
+    </sitemap>
+    <!-- al-Muqtabas -->
+    <sitemap>
+        <loc>https://tillgrallert.github.io/digital-muqtabas/sitemap.xml</loc>
+        <lastmod>2020-06-08 17:56:07 +0200</lastmod>
+    </sitemap>
+    <!-- al-Ustādh -->
+    <sitemap>
+        <loc>https://openarabicpe.github.io/journal_al-ustadh/sitemap.xml</loc>
+        <lastmod>2020-06-08 17:56:07 +0200</lastmod>
+    </sitemap>
+    <!-- al-Zuhūr -->
+    <sitemap>
+        <loc>https://openarabicpe.github.io/journal_al-zuhur/sitemap.xml</loc>
+        <lastmod>2020-06-08 17:56:07 +0200</lastmod>
+    </sitemap>
+    <!-- Lughat al-ʿArab -->
+    <sitemap>
+        <loc>https://openarabicpe.github.io/journal_lughat-al-arab/sitemap.xml</loc>
+        <lastmod>2020-06-08 17:56:07 +0200</lastmod>
+    </sitemap>
+</sitemapindex>
