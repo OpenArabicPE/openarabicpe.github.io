@@ -19,8 +19,9 @@ Users will, of course, want to search the edition for specific terms and will im
     ![Search the GitHub repository](/assets/images/search-github.jpg)
 
 2. Google's web search provides a [`site:` operator](https://moz.com/blog/25-killer-combos-for-googles-site-operator) that can be extensively manipulated:
-    + [`site:https://github.com/tillgrallert/digital-muqtabas/blob/master search string`](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgithub.com%2Ftillgrallert%2Fdigital-muqtabas%2Fblob%2Fmaster+%D8%B5%D8%AD%D8%A7%D9%81%D8%A9&oq=site%3Ahttps%3A%2F%2Fgithub.com%2Ftillgrallert%2Fdigital-muqtabas%2Fblob%2Fmaster+%D8%B5%D8%AD%D8%A7%D9%81%D8%A9) will search all files in the Digital Muqtabas repository.
-    + add [`filetype:xml`](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgithub.com%2Ftillgrallert%2Fdigital-muqtabas%2Fblob%2Fmaster+%D8%B5%D8%AD%D8%A7%D9%81%D8%A9+filetype%3Axml&oq=site%3Ahttps%3A%2F%2Fgithub.com%2Ftillgrallert%2Fdigital-muqtabas%2Fblob%2Fmaster+%D8%B5%D8%AD%D8%A7%D9%81%D8%A9+filetype%3Axml) to search only XML files. Other options would be `filetype:md` for plain text markdown files, `filetype.bib` for BibTeX files etc.
+    + [`site:https://openarabicpe.github.io/ filetype:xml search string`](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fopenarabicpe.github.io%2F+filetype%3Axml+%D8%A7%D9%84%D9%82%D9%88%D9%8A%D9%85%D8%A9) will search the XML files for all editions hosted via <openarabicpe.github.io>.
+    + [`site:https://openarabicpe.github.io/digital-haqaiq filetype:xml search string`](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fopenarabicpe.github.io%2Fdigital-haqaiq+filetype%3Axml+القويمة) will search all XML files of the edition of ʿAbd al-Qādir al-Iskandarānī's *al-Ḥaqāʾiq*.
+    + the [`filetype:`] operator is used to limit the scope of the search to a particular file type. Other options would be `filetype:md` for plain text markdown files, `filetype.bib` for BibTeX files etc.
 
     ![Search Google with the `site:` operator](/assets/images/search-google.jpg)
 
