@@ -91,66 +91,13 @@ There is no proper release schedule yet but I conceive of version 1.0 as the fir
 - Initial adaptation of TEI Boilerplate: September/October 2015 -->
 
 
-# 2. The journal *al-Muqtabas*
+# 2. Input:
 
-Muḥammad Kurd ʿAlī published the monthly journal *al-Muqtabas* between 1906 and 1917/18. After the Young Turk Revolution of July 1908, publication moved from Cairo to Damascus in the journal's third year.
-
-## 2.1 Publication schedule and number of issues
-
-There is some confusion as to the counting of issues and their publication dates. Samir Seikaly argues that Muḥammad Kurd ʿAlī was wrong in stating in his memoirs that he had published 8 volumes of 12 issues each and two independent issues.[^1] But the actual hard copies at the [Orient-Institut Beirut](http://www.orient-institut.org) and the digital facsimiles from HathiTrust and EAP show that Kurd ʿAlī was right insofar as volume 9 existed and comprised 2 issues only. As it turns out, *al-Muqtabas* also published a number of double issues: [Vol. 4 no. 5/6](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_41.TEIP5.xml) and [Vol. 8 no. 11/12](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_94.TEIP5.xml).
-
-[^1]:{KurdʿAlī 1928@424}, {Seikaly 1981@128}
-
-According to the masthead and the cover sheet, *al-Muqtabas*'s publication schedule followed the Islamic *hijrī* calendar (from the journal itself it must remain open whether the recorded publication dates were the actual publication dates). Sometimes the printers made errors: [no. 4/2](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_38.TEIP5.xml), for instance, carries Rab I 1327 aH as publication date on the cover sheet, but Ṣaf 1327 aH in its masthead. The latter would correspond to the official publication schedule. External sources, such as reports in the daily newspaper *al-Muqtabas*, also published by Muḥammad Kurd ʿAlī in Damascus, indicate that the actual publication sequence was indeed not too tightly tied to the monthly publication schedule already at the very beginning:
-
-*Thamarāt al-Funūn* 29 Jan. 1906 / 4 Dhu II 1323 aH (#1548) announced the publication of [no.2 of *Majallat al-Muqtabas*](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_2.TEIP5.xml) two months earlier than the date indicated in the issue's masthead: Ṣafar 1324 aH.[^5] This also contradicts Muḥammad Kurd ʿAlī's memoirs, where he states that publication of *Muqtabas* commenced in early 1324 aH.[^11]
-
-[^11]:{KurdʿAlī 1928@415}
-
-By Summer 1909, *al-Muqtabas* was lagging severely behind its publication schedule. [No. 4/7](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_42.TEIP5.xml), scheduled for Rajab 1327 aH (Jul/Aug 1909) was published only in the first week of April 1910 but it took only another week for [No. 4/8](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_43.TEIP5.xml) to appear.[^14] No. 4/9 and [4/10](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_45.TEIP5.xml) were then published within another month.[^4] Nevertheless there were still rather late (the latter should have been published in Shawwāl 1327 aH (Oct/Nov 1909)). [No. 4/12 (Dhu II 1327 aH [Dec 1909/ Jan 1910])](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_47.TEIP5.xml) was published at the beginning of July 1910, some seven months behind the schedule.[^6]
-
-Muḥammad Kurd ʿAlī and his staff seemingly entered another productive period in fall 1910, publishing eight "monthly" issues in three months:
-
-- *al-Muqtabas* 13 Sep. 1910 (#473) announced [no. 5/3](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_50.TEIP5.xml) that should have been published for/in Rab I 1328 aH (Mar/Apr 1910).[^7] But publication speed picked up and
-- only eleven days later, *al-Muqtabas* 24 Sep. 1910 (#482) announced the publication of [no. 5/4](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_51.TEIP5.xml), which contains [a speech delivered by Rafīq Bey al-ʿAẓm to the al-Quwwatlī Club on 14 Shaʿbān 1328 / 21 August 1910](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_51.TEIP5.xml#div_2.d1e1392).[^8]
-- *al-Muqtabas* 12 Dec. 1910 (#548) announced the publication of [no. 5/10](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_57.TEIP5.xml) of Shaw 1328 aH (Oct/Nov 1910).[^9]
-
-Production seemingly followed a monthly pattern as it took slightly less then six months to publish the next six issues (5/11 - 6/4):
-
-- *al-Muqtabas* 18 Jun. 1911 (#706) advertised Jamāl al-Dīn al-Qāsimī's three-partite article *al-fatwā fī al-islām* ([part one](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_61.TEIP5.xml#div_2.d1e1517), [two](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_62.TEIP5.xml#div_2.d1e1491), and [three](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_63.TEIP5.xml#div_7.d1e1810)) published in [no. 6/2 (Ṣafar 1329 / Feb 1911)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_61.TEIP5.xml), [6/3](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_62.TEIP5.xml), and [6/4](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_63.TEIP5.xml) and mentioned that the copy of *Majallat al-Muqtabas* was sold for 1.5 *beşlik*s.[^10]
-- *al-Muqtabas* 1 Jul. 1911 / 4 Raj 1329 aH (#717) announced the publication of two issues, [no.6/5](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_64.TEIP5.xml) and [6/6](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_65.TEIP5.xml), which according to the publication schedule should have been published in late April and late May respectively.[^2]
-
-[^14]:[{muqtabas 76-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6831;r=10426). It is important to note that an article in [4/2](https://github.com/tillgrallert/digital-muqtabas/blob/master/xml/oclc_4770057679-i_38.TEIP5.xml) scheduled for February/March 1909 was referenced in the newspaper [*al-Quds* #60 of 11 June 1909](http://www.palestine.mei.columbia.edu/alquds-issues/2017/2/21/issue-60).
-[^10]:[{muqtabas 274-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=7029;r=17843)
-[^2]:[{muqtabas 283-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=7038;r=9551)
-[^4]:[{muqtabas 100-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6855;r=6738)
-[^5]:{tf-oib 1548@5}
-[^6]:[{muqtabas 128-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6883;r=18866)
-[^7]:[{muqtabas 184-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6939;r=1883)
-[^8]:[{muqtabas 188-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6943;r=5230)
-[^9]:[{muqtabas 200-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6955;r=4592). *al-Ḥaqāʾiq* 1(10),  1 Jum I 1329 aH, 17 Nīs 1327 R [30 Apr. 1911]:369-74 replied to an article in this issue of *al-Muqtabas*.
-
-- In April 1912 the newspaper *al-Muqtabas* was banned from publication and an attempt was made to arrest Muḥammad Kurd ʿAlī over the re-print of a *qaṣīda* by Shaykh Ibrāhīm al-Uskūbī that had been previously published in the two Beiruti papers of *al-Waṭan* and *al-Balagh* without any repercussion from the censors. However, Muḥammad Kurd ʿAlī was seemingly warned by the arrest party itself and managed to escape to Egypt; his brother Aḥmad was arrested on 17 April in his stead and as the responsible editor of the newspaper *al-Muqtabas*. As a consequence, the publication of the journal *al-Muqtabas* moved to Cairo with [No. 7/6](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml).
-
-Similar confusion shrouds the end of publication in mystery. As no publication dates were actually provided in the mastheads of individual issues and since the issue wrappers were mostly discarded upon binding the issues into volumes, the only surviving explicit dating is provided by the volumes' cover sheets. According to its covers sheet, volume 8 was published through 1332 aH, i.e. between December 1913 and November 1914. However an [article in issue 9](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_91.TEIP5.xml#p_98.d1e2707) reports on the inauguration of a Mosque in Berlin at the end of Ram 1333 aH (mid-August 1915). The same issue reviews a number of books printed in 1333 aH and [one book published in 1334 aH](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_91.TEIP5.xml#div_24.d1e3028) in addition to the announcement of a publication on the ["first year of the war"](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_91.TEIP5.xml#div_26.d1e3075), which would mean that it was not published before November 1915 (Muḥarram 1334 aH) and most likely in 1916. Issue 12 of the same volume even recorded a [notebook for the year 1917](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_94.TEIP5.xml#p_384.d1e4223) in the section on new books and publications, which also listed further books published in 1334 aH. The following issue continues this trend by publishing an [obituary for Shaykh ʿAbd al-Razzāq al-Bayṭār](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_95.TEIP5.xml#div_16.d1e2869), who died in Damascus on 10 Rab 1335 [4 January 1917].
-
-## 2.2 Moving publication between Cairo and Damascus.
-
-After the constitiutional revolution in the Ottoman Empire in July 1908, Muḥammad Kurd ʿAlī moved *al-Muqtabas* from Cairo to Damascus with the publication of no. [4/1](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_37.TEIP5.xml). <!-- After his initial enthusiasm for the Your Turks' project and the CUP vanished he  --> In consequence of Muḥammad Kurd ʿAlī being prosecuted over a reprinted article in the newspaper *al-Muqtabas* in April 1912, he fled to Cairo and (temporarily) moved the publication of the journal *al-Muqtabas* to the same location with no. [7/6](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462).
-
-## 2.3 Known editions
-
-In addition to the original edition, at least one reprint appeared: In 1992 Dār Ṣādir in Beirut published a facsimile edition, which is entirely unmarked as such but for the information on the binding itself. Checking this reprint against the original, it appeared to be a facsimile reprint: pagination, font, layout --- everything is identical. But as Samir Seikaly remarked in 1981 that he used "two separate compilations of *al-Muqtabas* [...] in this study" there must be at least one other print edition that I have not yet seen.[^12]
-
-[^12]:{Seikaly 1981@128}
-
-# 3. Input:
-
-## 3.1 Digital imagery
+## 2.1 Digital imagery
 
 Image files are available from the [*al-Aqṣā* Mosque's library in Jerusalem through the British Library's "Endangered Archives Project" (vols. 2-7)](http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63), [HathiTrust (vols. 1-6, 8)](http://catalog.hathitrust.org/Record/100658549), and [Institut du Monde Arabe](http://ima.bibalex.org/IMA/presentation/periodic/list.jsf?pid=9C82C139F9785E99D30089727B40A269). Due to its open access licence, preference is given to facsimiles from EAP.
 
-### 3.1.1 [EAP119](http://eap.bl.uk/)
+### 2.1.1 [EAP119](http://eap.bl.uk/)
 
 - links to volumes:
     + [Vol. 2](http://eap.bl.uk/database/overview_item.a4d?catId=809;r=12316)
@@ -163,7 +110,7 @@ Image files are available from the [*al-Aqṣā* Mosque's library in Jerusalem t
     + the journal is in the public domain and the images can be freely accessed without restrictions. EAP does not provide a download button.
     + Terms of access for material provided by the British Library can be found [here](http://www.bl.uk/aboutus/terms/index.html)
 
-### 3.1.2 [HathiTrust](https://www.hathitrust.org/)
+### 2.1.2 [HathiTrust](https://www.hathitrust.org/)
 
 - links to volumes
     + [Vol. 1](http://hdl.handle.net/2027/umn.319510029968608)
@@ -183,7 +130,7 @@ Image files are available from the [*al-Aqṣā* Mosque's library in Jerusalem t
 >
 > Note: There are no restrictions on use of text transcribed from the images, or paraphrased or translated using the images.
 
-### 3.1.3 [arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co)](archive.sakhrit.co)
+### 2.1.3 [arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co)](archive.sakhrit.co)
 
 Recently, a colleague pointed me to another gray online library of Arabic material---one that was entirely dedicated to cultural and literary journals: [arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co)](archive.sakhrit.co). I have posted a review of the website on [my blog](https://tillgrallert.github.io/blog/2016/04/22/review-archive-sakhrit/).
 
@@ -201,7 +148,7 @@ In the future we will link to the archive.sakhrit's digital facsimiles for those
 
 - Vol. 1: links to this volume are of particular importance as no scans are availble from EAP and those from HathiTrust remain unaccessible to the majority of potential users.
 
-### 3.1.3 other sources
+### 2.1.3 other sources
 
 - Institut du Monde Arabe: bibliothèque numérique.
     + The website was built quite some time ago and is not meant for large screens. All digitised materials are served through a tiny pop-up window (740 x 570 px) even though the proprietary viewer allows for much larger views.
@@ -211,12 +158,12 @@ In the future we will link to the archive.sakhrit's digital facsimiles for those
     + [vol. 4](http://viewer2.bibalex.org/BookViewer/?book_id=DAF-Job:224414&locale=en&EnableLogin=True)
     + [vol. 5](http://viewer2.bibalex.org/BookViewer/?book_id=DAF-Job:224415&locale=en&EnableLogin=True)
 
-## 3.2 Full text
+## 2.2 Full text
 
 Somebody took the pains to create fully searchable text files and uploaded everything to [al-Maktaba al-Shamela](http://shamela.ws/index.php/book/26523) and  [WikiSource](https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1).
 
 
-### 3.2.1 [al-Maktaba al-Shāmila](http://www.shamela.ws)
+### 2.2.1 [al-Maktaba al-Shāmila](http://www.shamela.ws)
 
 The digital text of [*al-Muqtabas* on *shamela.ws*](http://shamela.ws/index.php/book/26523) comprises all 96 issues totalling some 1.9 million words. It was transcribed from either digital facsimiles or original copies by anonymous transcribers following undocumented editing principles. Comparison with the original print edition allows us to discern common transcription errors, such as missing lines or characters, which indicate that *shamela.ws*'s text was indeed transcribed by humans without quality control through double-keying usually required for scholarly transcriptions (see [no. 4(2), p.82](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_38.TEIP5.xml#p_60.d1e2238), [no. 4(3), p.158](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_39.TEIP5.xml#gap_1.d1e3111), and [no. 6(12), pp.799--800](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_71.TEIP5.xml#pb_126.d1e4373) for examples). The comparison also reveals that *shamela.ws* principally omitted mastheads, all words in Latin script (mainly technical terms and proper nouns) and all footnotes.
 
@@ -230,25 +177,25 @@ In terms of structural mark-up, *shamela.ws* did not provide but an ecclectic se
     + all issues can be browsed for headlines and searched
     + all pages can be individually adressed in the browser: [http://shamela.ws/browse.php/book-26523#page-2290](http://shamela.ws/browse.php/book-26523#page-2290)
 
-### 3.2.2 WikiSource
+### 2.2.2 WikiSource
 
 Sombody uploaded the text from *shamela* to WikiSource. Unfortunately it is impossible to browse the entire journal. Instead one has to adress each individual and consecutively numbered issue, e.g. Vol. 4, No. 1 is listed as [No. 37](https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_37)
 
-# 4. Deliverable: TEI edition
+# 3. Deliverable: TEI edition
 
 The main challenge is to combine the full text and the images in a TEI edition. As *al-maktabat al-shāmila* did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.
 
-## 4.1 General design
+## 3.1 General design
 
 The edition is conceived of as a corpus of TEI files that are grouped by means of XInclude. This way, volumes can be constructed as single TEI files containing a `<group/>` of TEI files and a volume specific `<front/>` and `<back/>`
 
 Detailled description and notes on the mark-up are kept in a separate [file (`documentation_tei-markup.md`)](https://github.com/tillgrallert/digital-muqtabas/blob/master/documentation_tei-markup.md).
 
-## 4.2 Quality control
+## 3.2 Quality control
 
 A simple way of controlling the quality of the basic structural mark-up would be to cross check any automatically generated table of content or index against the published tables of content at the end of each volume and against the index of *al-Muqtabas* published by [Riyāḍ ʿAbd al-Ḥamīd Murād in 1977](http://hdl.handle.net/2027/umn.31951d008457474).
 
-## 4.3 To do
+## 3.3 To do
 
 1. Mark-up: The basic structural mark-up of individual issues is far from complete. All features encoded in HTML by *shamela.ws* have been translated into TEI XML, but these are limited to the main article / section headers. What needs to be done is:
     - splitting articles into sections and sections into individual articles
@@ -256,7 +203,7 @@ A simple way of controlling the quality of the basic structural mark-up would be
 2. Text-image linking: while the links to the facsimiles can be automatically generated for each issue, establishing page breaks (`<pb>`) must be done manually for all 6.000+ of them
 
 
-# 5. Deliverable: A [web display](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_1.TEIP5.xml) adapting TEI Boilerplate
+# 4. Deliverable: A [web display](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_1.TEIP5.xml) adapting TEI Boilerplate
 
 To allow a quick review of the mark-up and read the journal's content, I decided to customise [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) for a first display of the TEI files in the browser without need for pre-processed HTML and to host this heavily customised boilerplate view as another [GitHub repository](https://www.github.com/tillgrallert/tei-boilerplate-arabic-editions) to be re-used.
 
@@ -282,11 +229,11 @@ User will, of course, want to search the edition for specific terms and will imm
 
 - a public [Zotero group](https://www.zotero.org/groups/digital-muqtabas/items/) comprising bibliographic metadata for all articles and sections, including author names, titles, publication dates, volume and issue numbers etc., including links to the webview.
 
-# 6. Deliverable: Bibliographic metadata / index
+# 5. Deliverable: Bibliographic metadata / index
 
 Bibliographic metadata for every article in Majallat al-Muqtabas is provided in two formats: BibTeX and MODS in the sub-folder [`metadata`](metadata/). The metadata includes a URL pointing to the webview of this item and the webview, in turn, includes links to the metadata files for every article.
 
-## 6.1 BibTeX
+## 5.1 BibTeX
 
 <!-- Added reference to principles of minimal computing etc.  -->
 [BibTeX](http://www.bibtex.org/Format/) is a plain text format which has been around for more than 30 years and which is widely supported by reference managers. Thus it seems to be a safe bet to preserve and exchange minimal bibliographic data. The repository currently contains two XSLT stylesheets to automatically generate BibTeX files from the TEI source:
@@ -304,7 +251,7 @@ There are, however, a number of problems with the format:
     + periodicals are not perceived as having different editions or print-runs
     + non-Gregorian calendars cannot be added.
 
-## 6.2 MODS (Metadata Object Description Schema)
+## 5.2 MODS (Metadata Object Description Schema)
 
 The [MODS standard](http://www.loc.gov/standards/mods/) is expressed in XML and maintained by the [Network Development and MARC Standards Office](http://www.loc.gov/marc/ndmso.html) of the Library of Congress with input from users. Compared to BibTeX MODS has he advantage of being properly standardised, human and machine readable, and much better suited to include all the needed bibliographic information.
 
@@ -319,7 +266,7 @@ MODS also serves as the intermediary format for the free [bibutils suite](https:
 - to generate BibTex: `$xml2bib MODS.xml > output_file.bib`
 
 
-## 6.3 Index by means of a Zotero group
+## 5.3 Index by means of a Zotero group
 
 As the webview or reading edition is implemented on the issue level and as we have currently no plans to implement and host a database on the backend, *Digital Muqtabas* needed a way to navigate and browse all articles, authors etc. To this end, we have set up the public [Zotero group "Digital Muqtabas" (bibliographic metadata)](https://www.zotero.org/groups/digital-muqtabas/items/). It can be updated by means of the MODS or BibTeX files. Updating from MODS is the preferred method since it is the more expressive format.
 
