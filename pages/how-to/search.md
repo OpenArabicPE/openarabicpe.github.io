@@ -27,7 +27,14 @@ Users will, of course, want to search the edition for specific terms and will im
 
     ![Search Google with the `site:` operator](/assets/images/search-google.jpg)
 
-3. Google also provides "programmable search" engines, which we have set up to search all of OpenArabicPE's editions by submitting `sitemap.xml` files. Whenever we update our editions, we also re-generate the sitemap and Google will crawl the results. The programmable search engine can be integrated into any webpage: <div class="gcse-search"></div>
+3. Google also provides "programmable search" engines, which we have set up to search all of OpenArabicPE's editions by submitting `sitemap.xml` files. Whenever we update our editions, we also re-generate the sitemap and Google will crawl the results. The programmable search engine can be integrated into any webpage
+
+<ul>
+    <li>
+        <div class="gcse-search"></div>
+    </li>
+</ul>
+
 4. a public [Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items) comprising bibliographic metadata for all articles and sections, including author names, titles, publication dates, volume and issue numbers etc., including links to the webview.
 
     ![Search for *siḥāfa* in the Zoteor group](/assets/images/zotero-group_openarabicpe-search.png)
