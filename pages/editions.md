@@ -2,8 +2,13 @@
 layout: page
 title: "Editions"
 author: Till Grallert
-date: 2020-02-26 22:43:36 +0200
+date: 2020-07-08
 ---
+
+# Search all editions
+
+<script async src="https://cse.google.com/cse.js?cx=012251040084107011117:jof1v_ejndo"></script>
+<div class="gcse-search"></div>
 
 # Current projects
 
