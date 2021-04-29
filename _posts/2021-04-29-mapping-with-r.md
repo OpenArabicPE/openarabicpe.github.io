@@ -554,7 +554,7 @@ f.map.periodicals.by.period(data.jaraid, 1911, 1, scale_fill_gradientn(colours =
 f.map.periodicals.by.period(data.jaraid, 1910, 10, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
-![Arabic periodicals first published throughout the 1910s](/assets/maps/map-periodicals_1910-1919.png)
+![Arabic periodicals first published throughout the 1910s](/assets/maps/map-periodicals_1910-1919_basic.png)
 
 Finally, we can also wrap this mapping function in another function to produce a sequence or time series of maps
 
@@ -663,9 +663,6 @@ f.map.periodicals.by.period.region <- function(data.input, onset, period, region
 
 We can now easily plot the above data for 1911 in the Middle East and the entire 1910s in the Americas
 
-:::: {.columns}
-::: {.column}
-
 ```r
 f.map.periodicals.by.period.region(data.jaraid, 1911, 1, region.middle.east, scale_fill_gradientn(colours = rainbow(20)))
 ```
@@ -685,6 +682,8 @@ A rolling time series will present slices of equal length in which each slice is
 With these functions we have finally reached the point where we can produce regional time series, which can then be combined into an animated GIF.
 
 ### Rolling time series
+
+The basic idea is a loop that generates a map for a fixed period but with incremented onset. Hence, it runs in annual steps from `onset` until `terminus` but keeps the `period` in the function call stable.
 
 ```r
 # time series slices of equal length
@@ -706,6 +705,8 @@ f.map.periodicals.regional.timeseries.rolling(data.jaraid, 1910, 1915, 10, regio
 ![Arabic periodicals in the Americas first published in the decade starting in 1914](/assets/maps/map-periodicals_Americas_1914-1923_basic.png)
 
 ### Accumulating time series
+
+The basic idea is a loop that generates a map for a fixed period but with a fixed onset but an incremented terminus. Hence, it runs in annual steps from `onset` until `terminus` and increases the `period` by 1 for each step in the function call.
 
 ```r
 # time series between onset and terminus showing annual growth
@@ -768,9 +769,9 @@ The options are:
 - `-delay`: the time between image changes in 1/100 of a second
 - `-dispose previous`: this discards the previous slice and avoids layering
 
-And here is, finally, the resulting, animated map of an accumulating time series:
+And here is, finally, the resulting, animated map of an accumulating time series. Note that I have used further augmented maps for this GIF.
 
-![](/assets/maps/map-periodicals_Americas_accumulating.gif)
+![](/assets/maps/map-periodicals_Americas_1882-1929-y_1.gif)
 
 
 
