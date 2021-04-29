@@ -11,14 +11,31 @@ bibliography:
 reference-section-title: "Bibliography"
 lang: en-GB
 categories:
-- blog
-- project_dh
-- project_oape
+  - blog
+  - project_dh
+  - project_oape
+  - project_sihafa
+  - project_jaraid
 tags:
-- documentation
+  - tutorial
+  - mapping
+  - R
+  - ggplot2
+  - XSLT
+  - XML
+  - ImageMagick
+  - GIF
+  - bibliographic data
+  - multilingual DH
+  - Arabic periodicals
 ---
 
-To celebrate this year's [Day of DH](https://dhcenternet.org/initiatives/day-of-dh/2021) ([#DayOfDH20201](https://twitter.com/search?q=%23DayOfDH2021)), I want to share this draft tutorial for mapping multilingual bibliographic data sets with R. This is a draft and I appreciate any comments, questions etc. using [hypothes.is](https://hypothes.is/).
+To celebrate this year's [Day of DH](https://dhcenternet.org/initiatives/day-of-dh/2021) ([#DayOfDH20201](https://twitter.com/search?q=%23DayOfDH2021)), I want to share this draft tutorial for mapping multilingual bibliographic data sets with R.
+
+*NOTES*
+
+- This is a draft and I appreciate any comments, questions etc. using [hypothes.is](https://hypothes.is/).
+- This website is generated using the default GitHub pages Jekyll workflow, which does not support a citeproc plugin. The few references are, therefore, currently not formatted.
 
 # Introduction
 
@@ -312,18 +329,9 @@ map.base + coord_map(xlim = c(-180,180),
 
 Note that in this case the `xlim` is needed to mitigate against [a well-known bug](https://github.com/tidyverse/ggplot2/issues/1104) in `{ggplot2}` that only pertains to this specific data source that would otherwise cause points above 180º to distort polygons.
 
-:::: {.columns}
-::: {.column}
-
 ![Mercator projection](/assets/maps/map-example_vector_world-mercator.png)
 
-:::
-::: {.column}
-
-![Gilbert projection](/assets/maps/map-example_vector_world-gilbert.png)
-
-:::
-::::
+<!-- ![Gilbert projection](/assets/maps/map-example_vector_world-gilbert.png) -->
 
 ### Simple features: vectorised spatial data
 
@@ -348,12 +356,9 @@ map.sf.base
 
 ### Map our data
 
-We can now plot our data onto these base layers.
+We can now plot our data onto these base layers. Although this works with any of the base maps, we will use the Simple Features map from here on.
 
-:::: {.columns}
-::: {.column}
-
-The basic vector map.
+<!-- The basic vector map.
 
 ```r
 map.base +
@@ -363,12 +368,10 @@ map.base +
              shape = 21, stroke = 0.2, alpha = 0.6)
 ```
 
-![](/assets/maps/map-example_vector_world-data-mercator-basic.png)
+![](/assets/maps/map-example_vector_world-data-mercator-basic.png) -->
 
-:::
-::: {.column}
 
-The simple-features map.
+<!-- The simple-features map. -->
 
 ```r
 map.sf.base +
@@ -380,31 +383,21 @@ map.sf.base +
 
 ![](/assets/maps/map-example_sf_world-data-basic.png)
 
-:::
-::::
-
 This map, while technically sufficient, is rather illegible and needs quite a few edits to improve the display and foreground the data we are interested in.
 
 1.  We need to alter the appearance of the world-map to become much more muted
 
     ```r
-    map.base <- ggplot() +
-      geom_polygon(data = map_data("world"),
-            aes(x = long, y = lat, group = group),
-            # subdued / pale look
-            fill = "#d9d8d7", color = "#b8b6b6",
-            size = 0.1, alpha = 0.8) +
-      coord_map(xlim=c(-180,180),
-            projection = "mercator")
+    map.sf.base <- ggplot() +
+      geom_sf(data = ne_countries(scale = "medium", returnclass = "sf"), fill = "#d9d8d7", color = "#b8b6b6",
+              size = 0.1, alpha = 0.8)
     ```
 
 2. We limit the map to the region with data points, using the `min()` and `max()` functions for each coordinate and adding a bit of a margin
 
     ```r
-    viewport.data <- c(coord_map(
-        xlim = c(min(data.jaraid.aggregated$long, na.rm = T) -2, max(data.jaraid.aggregated$long, na.rm = T) +2),
-        ylim = c(min(data.jaraid.aggregated$lat, na.rm = T) -1, max(data.jaraid.aggregated$lat, na.rm = T) +1),
-        projection = "mercator"))
+    viewport.sf.data <- c(coord_sf(xlim = c(min(data.jaraid.aggregated$long, na.rm = T), max(data.jaraid.aggregated$long, na.rm = T)),
+        ylim = c(min(data.jaraid.aggregated$lat, na.rm = T), max(data.jaraid.aggregated$lat, na.rm = T))))
     ```
 
 3. We make the data more legible and prominent
@@ -430,9 +423,10 @@ This map, while technically sufficient, is rather illegible and needs quite a fe
 5. Finally, we plot the all these layers upon the base map.
 
     ```r
-    map.base +
+    map.sf.final <- map.sf.base +
+        layer.locations.labels +
         layer.data +
-        viewport.data +
+        viewport.sf.data +
         layer.labs +
         # set colour scales and fonts
         scale_fill_gradient2(low = "blue", mid = "red", high = "yellow", midpoint = 350) +
@@ -442,7 +436,7 @@ This map, while technically sufficient, is rather illegible and needs quite a fe
     ```
 
 
-![Final map of Arabic periodicals](/assets/maps/map-example_vector_world-data-mercator-final.png)
+![Final map of Arabic periodicals](/assets/maps/map-example_sf_world-data-final.png)
 
 ## Pre-process the data: filter for period
 
@@ -511,53 +505,44 @@ In order to map multiple periods, we can wrap the above mapping commands into a 
 
 ```r
 f.map.periodicals.by.period <- function(data.input, onset, period, scale.colours) {
-  # filter data by period
-  data.period <- f.filter.by.period(data.input, onset, period)
-  # variables:
-  terminus = onset + period -1 # compute terminus to be reused in labels and file names
-  font = "Baskerville" # set a pleasant font for the entire plot
-  projection = "mercator" # one could use a different projection here: gilbert, mollweide
-  # viewport: based on the filtered data
-  viewport.data <- c(coord_map(xlim = c(min(data.period$long, na.rm = T) -2, max(data.period$long, na.rm = T) +2),
-        ylim = c(min(data.period$lat, na.rm = T) -0.5, max(data.period$lat, na.rm = T) +0.5),
-        projection = projection))
-  # base map
-  map.base <- ggplot()+
-    geom_polygon(data = map_data("world"), aes(x = long, y = lat, group = group),
-        fill = "#d9d8d7", color = "#b8b6b6", size = 0.1, alpha = 0.8) + # colours could be based on variables
-    coord_map(xlim=c(-180,180), projection = projection)
-  # labels
-  layer.labs <- labs(x="long", y="lat",
+    # filter data by period
+    data.period <- f.aggregate.by.period(data.input, onset, period)
+    # variables:
+    terminus = onset + period -1 # compute terminus to be reused in labels and file names
+    font = "Baskerville" # set a pleasant font for the entire plot
+    viewport.sf.data <- c(coord_sf(xlim = c(min(data.period$long, na.rm = T), max(data.period$long, na.rm = T)),
+        ylim = c(min(data.period$lat, na.rm = T), max(data.period$lat, na.rm = T))))
+    # base map
+    map.sf.base <- ggplot() +
+        geom_sf(data = ne_countries(scale = "medium", returnclass = "sf"), fill = "#d9d8d7", color = "#b8b6b6", size = 0.1, alpha = 0.8)
+    # labels
+    layer.labs <- labs(x="long", y="lat",
         title = "Distribution of Arabic periodicals",
         subtitle = paste("Number of new titles", ifelse(period == 1, "in", "between"), onset, ifelse(period > 1, paste("and", terminus, sep = " " ), ""), sep = " "),
         caption = paste("Till Grallert ", lubridate::year(Sys.Date()), ", CC BY-SA 4.0", sep = ""))
-  # layer with dots: size is number of periodicals
-  layer.periodicals <- c(geom_point(data = data.period,
+    # layer with dots: size is number of periodicals
+    layer.periodicals <- c(geom_point(data = data.period,
         aes(x = long, y = lat, fill = periodicals),
         size = sqrt(data.period$periodicals) * 2,
         shape = 21, stroke = 0,alpha = 0.6))
-  # compose map
-  map.data <- map.base + viewport.data +
-    # layers
-    layer.labs + layer.periodicals +
-    # colours, fonts, etc.
-    scale.colours + guides(fill) + theme(
-        text = element_text(family = font, face = "plain"),
-        legend.position = "right")
-  # save map
-  setwd(here("visualization/maps"))
-  ggsave(plot = map.data,
-        filename = paste("map-periodicals_", onset, ifelse(period > 1, paste("-", terminus, sep = "" ), ""),".png", sep = ""),
-        units = "mm" , height = 200, width = 300, dpi = 150)
-  # plot map: necessary if one wants to save the output of the function in a variable
-  map.data
+    # compose map
+    map.data <- map.sf.base + viewport.sf.data +
+        # layers
+        layer.labs + layer.periodicals +
+        # colours, fonts, etc.
+        scale.colours + guides(fill) + theme(
+            text = element_text(family = font, face = "plain"),
+            legend.position = "right")
+    # save map
+    setwd(here("visualization/maps"))
+    ggsave(plot = map.data,
+        filename = paste("map-periodicals_", onset, ifelse(period > 1, paste("-", terminus, sep = "" ), ""),".png", sep = ""), units = "mm" , height = 200, width = 300, dpi = 150)
+    # plot map: necessary if one wants to save the output of the function in a variable
+    map.data
 }
 ```
 
 We can now easily plot the above data for 1911 and the entire 1910s
-
-:::: {.columns}
-::: {.column}
 
 ```r
 f.map.periodicals.by.period(data.jaraid, 1911, 1, scale_fill_gradientn(colours = rainbow(20)))
@@ -565,17 +550,11 @@ f.map.periodicals.by.period(data.jaraid, 1911, 1, scale_fill_gradientn(colours =
 
 ![Arabic periodicals first published in 1911](/assets/maps/map-periodicals_1911.png)
 
-:::
-::: {.column}
-
 ```r
 f.map.periodicals.by.period(data.jaraid, 1910, 10, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
 ![Arabic periodicals first published throughout the 1910s](/assets/maps/map-periodicals_1910-1919.png)
-
-:::
-::::
 
 Finally, we can also wrap this mapping function in another function to produce a sequence or time series of maps
 
