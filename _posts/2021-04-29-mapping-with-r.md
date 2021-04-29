@@ -673,7 +673,7 @@ f.map.periodicals.by.period.region(data.jaraid, 1911, 1, region.middle.east, sca
 f.map.periodicals.by.period.region(data.jaraid, 1910, 10, region.americas, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
-![Arabic periodicals in the Americas first published throughout the 1910s](/assets/maps/map-periodicals_Americas_1910-1919.png)
+![Arabic periodicals in the Americas first published throughout the 1910s](/assets/maps/map-periodicals_Americas_1910-1919_basic.png)
 
 ## Map time series
 
