@@ -6,8 +6,8 @@ author: Till Grallert
 date: 2021-04-29
 ORCID: orcid.org/0000-0002-5739-8094
 bibliography:
-    - "../assets/bibliography/openarabicpe.csl.json"
-    - "/BachUni/research-projects/Sihafa/assets/bibliography/sihafa.csl.json"
+    - "/assets/bibliography/openarabicpe.csl.json"
+    - "/assets/bibliography/sihafa.csl.json"
 reference-section-title: "Bibliography"
 lang: en-GB
 categories:
@@ -18,7 +18,7 @@ tags:
 - documentation
 ---
 
-To celebrate this year's [Day of DH](https://dhcenternet.org/initiatives/day-of-dh/2021) ([#DayOfDH20201](https://twitter.com/search?q=%23DayOfDH2021)), I want to share this draft tutorial for mapping multilingual bibliographic data sets with R.
+To celebrate this year's [Day of DH](https://dhcenternet.org/initiatives/day-of-dh/2021) ([#DayOfDH20201](https://twitter.com/search?q=%23DayOfDH2021)), I want to share this draft tutorial for mapping multilingual bibliographic data sets with R. This is a draft and I appreciate any comments, questions etc. using [hypothes.is](https://hypothes.is/).
 
 # Introduction
 
@@ -27,9 +27,9 @@ Large bibliographic dataset such as [Project Jarāʾid](https://projectjaraid.gi
 <!-- The GIF -->
 
 
-![Global distribution of new Arabic periodicals between 1855 and 1929 in rolling 5-year periods. Showing sequential growth and summary since the onset of the Arabic periodical press in 1799.](../assets/maps/map-periodicals_World_1855-1929-y_5.gif)
+![Global distribution of new Arabic periodicals between 1855 and 1929 in rolling 5-year periods. Showing sequential growth and summary since the onset of the Arabic periodical press in 1799.](/assets/maps/map-periodicals_World_1855-1929-y_5.gif)
 
-![Distribution of new Arabic periodicals across the Middle East and North Africa between 1865 and 1929. Showing annual growth and summary since the onset of the Arabic periodical press in 1799.](../assets/maps/map-periodicals_MENA_1865-1929-y_1.gif)
+![Distribution of new Arabic periodicals across the Middle East and North Africa between 1865 and 1929. Showing annual growth and summary since the onset of the Arabic periodical press in 1799.](/assets/maps/map-periodicals_MENA_1865-1929-y_1.gif)
 
 <!-- Short overview of workflow before we dive into the details -->
 
@@ -278,7 +278,7 @@ ggplot() +
         shape = 21, stroke = 0.2,alpha = 0.6)
 ```
 
-![](../assets/maps/map-example_scatterplot.png)
+![](/assets/maps/map-example_scatterplot.png)
 
 While this already represents a map with latitude and longitude being mapped to the x and y axes of a Cartesian coordinate system, it would be much more useful to have the information plotted onto a geographic map of coastlines to provide some visual reference as to where values are located.
 
@@ -299,7 +299,7 @@ map.base <- ggplot() +
 map.base
 ```
 
-![](../assets/maps/map-example_vector_world-no-projection.png)
+![](/assets/maps/map-example_vector_world-no-projection.png)
 
 ### Projections
 
@@ -315,12 +315,12 @@ Note that in this case the `xlim` is needed to mitigate against [a well-known bu
 :::: {.columns}
 ::: {.column}
 
-![Mercator projection](../assets/maps/map-example_vector_world-mercator.png)
+![Mercator projection](/assets/maps/map-example_vector_world-mercator.png)
 
 :::
 ::: {.column}
 
-![Gilbert projection](../assets/maps/map-example_vector_world-gilbert.png)
+![Gilbert projection](/assets/maps/map-example_vector_world-gilbert.png)
 
 :::
 ::::
@@ -343,7 +343,7 @@ map.sf.base <- ggplot() +
 map.sf.base
 ```
 
-![](../assets/maps/map-example_sf_world.png)
+![](/assets/maps/map-example_sf_world.png)
 
 
 ### Map our data
@@ -363,7 +363,7 @@ map.base +
              shape = 21, stroke = 0.2, alpha = 0.6)
 ```
 
-![](../assets/maps/map-example_vector_world-data-mercator-basic.png)
+![](/assets/maps/map-example_vector_world-data-mercator-basic.png)
 
 :::
 ::: {.column}
@@ -378,7 +378,7 @@ map.sf.base +
              shape = 21, stroke = 0.2,alpha = 0.6) +
 ```
 
-![](../assets/maps/map-example_sf_world-data-basic.png)
+![](/assets/maps/map-example_sf_world-data-basic.png)
 
 :::
 ::::
@@ -442,7 +442,7 @@ This map, while technically sufficient, is rather illegible and needs quite a fe
     ```
 
 
-![Final map of Arabic periodicals](../assets/maps/map-example_vector_world-data-mercator-final.png)
+![Final map of Arabic periodicals](/assets/maps/map-example_vector_world-data-mercator-final.png)
 
 ## Pre-process the data: filter for period
 
@@ -563,7 +563,7 @@ We can now easily plot the above data for 1911 and the entire 1910s
 f.map.periodicals.by.period(data.jaraid, 1911, 1, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
-![Arabic periodicals first published in 1911](../assets/maps/map-periodicals_1911.png)
+![Arabic periodicals first published in 1911](/assets/maps/map-periodicals_1911.png)
 
 :::
 ::: {.column}
@@ -572,7 +572,7 @@ f.map.periodicals.by.period(data.jaraid, 1911, 1, scale_fill_gradientn(colours =
 f.map.periodicals.by.period(data.jaraid, 1910, 10, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
-![Arabic periodicals first published throughout the 1910s](../assets/maps/map-periodicals_1910-1919.png)
+![Arabic periodicals first published throughout the 1910s](/assets/maps/map-periodicals_1910-1919.png)
 
 :::
 ::::
@@ -597,17 +597,17 @@ f.map.periodicals.timeseries(data.jaraid, 1906, 1910, 1)
 :::: {.columns}
 ::: {.column}
 
-![Arabic periodicals first published in 1906](../assets/maps/map-periodicals_1906.png)
+![Arabic periodicals first published in 1906](/assets/maps/map-periodicals_1906.png)
 
 :::
 ::: {.column}
 
-![Arabic periodicals first published in 1907](../assets/maps/map-periodicals_1907.png)
+![Arabic periodicals first published in 1907](/assets/maps/map-periodicals_1907.png)
 
 :::
 ::: {.column}
 
-![Arabic periodicals first published in 1908](../assets/maps/map-periodicals_1908.png)
+![Arabic periodicals first published in 1908](/assets/maps/map-periodicals_1908.png)
 
 :::
 ::::
@@ -702,7 +702,7 @@ We can now easily plot the above data for 1911 in the Middle East and the entire
 f.map.periodicals.by.period.region(data.jaraid, 1911, 1, region.middle.east, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
-![Arabic periodicals in the Middle East first published in 1911](../assets/maps/map-periodicals_Middle East_1911.png)
+![Arabic periodicals in the Middle East first published in 1911](/assets/maps/map-periodicals_Middle East_1911.png)
 
 :::
 ::: {.column}
@@ -711,7 +711,7 @@ f.map.periodicals.by.period.region(data.jaraid, 1911, 1, region.middle.east, sca
 f.map.periodicals.by.period.region(data.jaraid, 1910, 10, region.americas, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
-![Arabic periodicals in the Americas first published throughout the 1910s](../assets/maps/map-periodicals_Americas_1910-1919.png)
+![Arabic periodicals in the Americas first published throughout the 1910s](/assets/maps/map-periodicals_Americas_1910-1919.png)
 
 :::
 ::::
@@ -740,17 +740,17 @@ f.map.periodicals.regional.timeseries(data.jaraid, 1910, 1915, 10, region.americ
 :::: {.columns}
 ::: {.column}
 
-![Arabic periodicals in the Americas first published in the decade starting in 1910](../assets/maps/map-periodicals_Americas_1910-1919.png)
+![Arabic periodicals in the Americas first published in the decade starting in 1910](/assets/maps/map-periodicals_Americas_1910-1919.png)
 
 :::
 ::: {.column}
 
-![Arabic periodicals in the Americas first published in the decade starting in 1912](../assets/maps/map-periodicals_Americas_1912-1921.png)
+![Arabic periodicals in the Americas first published in the decade starting in 1912](/assets/maps/map-periodicals_Americas_1912-1921.png)
 
 :::
 ::: {.column}
 
-![Arabic periodicals in the Americas first published in the decade starting in 1914](../assets/maps/map-periodicals_Americas_1914-1923.png)
+![Arabic periodicals in the Americas first published in the decade starting in 1914](/assets/maps/map-periodicals_Americas_1914-1923.png)
 
 :::
 ::::
@@ -774,17 +774,17 @@ f.map.periodicals.regional.timeseries.accumulating(data.jaraid, 1900, 1915, regi
 :::: {.columns}
 ::: {.column}
 
-![Arabic periodicals in the Americas first published between 1910 and 1914](../assets/maps/map-periodicals_Americas_1910-1914.png)
+![Arabic periodicals in the Americas first published between 1910 and 1914](/assets/maps/map-periodicals_Americas_1910-1914.png)
 
 :::
 ::: {.column}
 
-![Arabic periodicals in the Americas first published between 1910 and 1919](../assets/maps/map-periodicals_Americas_1910-1919.png)
+![Arabic periodicals in the Americas first published between 1910 and 1919](/assets/maps/map-periodicals_Americas_1910-1919.png)
 
 :::
 ::: {.column}
 
-![Arabic periodicals in the Americas first published between 1910 and 1924](../assets/maps/map-periodicals_Americas_1910-1924.png)
+![Arabic periodicals in the Americas first published between 1910 and 1924](/assets/maps/map-periodicals_Americas_1910-1924.png)
 
 :::
 ::::
@@ -832,7 +832,7 @@ The options are:
 
 And here is, finally, the resulting, animated map of an accumulating time series:
 
-![](../assets/maps/map-periodicals_Americas_accumulating.gif)
+![](/assets/maps/map-periodicals_Americas_accumulating.gif)
 
 
 
