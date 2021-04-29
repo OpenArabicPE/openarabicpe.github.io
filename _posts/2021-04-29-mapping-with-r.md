@@ -771,7 +771,7 @@ The options are:
 
 And here is, finally, the resulting, animated map of an accumulating time series. Note that I have used further augmented maps for this GIF.
 
-![](/assets/maps/map-periodicals_Americas_1882-1929-y_1.gif)
+![](/assets/maps/map-periodicals_Americas_1896-1929-y_1.gif)
 
 
 
