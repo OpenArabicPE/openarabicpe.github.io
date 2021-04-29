@@ -573,23 +573,12 @@ f.map.periodicals.timeseries(data.jaraid, 1906, 1910, 1)
 ```
 
 
-:::: {.columns}
-::: {.column}
-
 ![Arabic periodicals first published in 1906](/assets/maps/map-periodicals_1906.png)
-
-:::
-::: {.column}
 
 ![Arabic periodicals first published in 1907](/assets/maps/map-periodicals_1907.png)
 
-:::
-::: {.column}
-
 ![Arabic periodicals first published in 1908](/assets/maps/map-periodicals_1908.png)
 
-:::
-::::
 
 ## Further pre-processing the data: filter for region
 
@@ -683,17 +672,11 @@ f.map.periodicals.by.period.region(data.jaraid, 1911, 1, region.middle.east, sca
 
 ![Arabic periodicals in the Middle East first published in 1911](/assets/maps/map-periodicals_Middle East_1911.png)
 
-:::
-::: {.column}
-
 ```r
 f.map.periodicals.by.period.region(data.jaraid, 1910, 10, region.americas, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
 ![Arabic periodicals in the Americas first published throughout the 1910s](/assets/maps/map-periodicals_Americas_1910-1919.png)
-
-:::
-::::
 
 ## Map time series
 
@@ -713,26 +696,14 @@ f.map.periodicals.regional.timeseries.rolling <- function(data.input, onset, ter
 ```
 
 ```r
-f.map.periodicals.regional.timeseries(data.jaraid, 1910, 1915, 10, region.americas)
+f.map.periodicals.regional.timeseries.rolling(data.jaraid, 1910, 1915, 10, region.americas)
 ```
 
-:::: {.columns}
-::: {.column}
+![Arabic periodicals in the Americas first published in the decade starting in 1910](/assets/maps/map-periodicals_Americas_1910-1919_basic.png)
 
-![Arabic periodicals in the Americas first published in the decade starting in 1910](/assets/maps/map-periodicals_Americas_1910-1919.png)
+![Arabic periodicals in the Americas first published in the decade starting in 1912](/assets/maps/map-periodicals_Americas_1912-1921_basic.png)
 
-:::
-::: {.column}
-
-![Arabic periodicals in the Americas first published in the decade starting in 1912](/assets/maps/map-periodicals_Americas_1912-1921.png)
-
-:::
-::: {.column}
-
-![Arabic periodicals in the Americas first published in the decade starting in 1914](/assets/maps/map-periodicals_Americas_1914-1923.png)
-
-:::
-::::
+![Arabic periodicals in the Americas first published in the decade starting in 1914](/assets/maps/map-periodicals_Americas_1914-1923_basic.png)
 
 ### Accumulating time series
 
@@ -747,26 +718,14 @@ f.map.periodicals.regional.timeseries.accumulating <- function(data.input, onset
 ```
 
 ```r
-f.map.periodicals.regional.timeseries.accumulating(data.jaraid, 1900, 1915, region.americas, 300, 200)
+f.map.periodicals.regional.timeseries.accumulating(data.jaraid, 1910, 1924, region.americas, 300, 250)
 ```
 
-:::: {.columns}
-::: {.column}
+![Arabic periodicals in the Americas first published between 1910 and 1914](/assets/maps/map-periodicals_Americas_1910-1914_basic.png)
 
-![Arabic periodicals in the Americas first published between 1910 and 1914](/assets/maps/map-periodicals_Americas_1910-1914.png)
+![Arabic periodicals in the Americas first published between 1910 and 1919](/assets/maps/map-periodicals_Americas_1910-1919_basic.png)
 
-:::
-::: {.column}
-
-![Arabic periodicals in the Americas first published between 1910 and 1919](/assets/maps/map-periodicals_Americas_1910-1919.png)
-
-:::
-::: {.column}
-
-![Arabic periodicals in the Americas first published between 1910 and 1924](/assets/maps/map-periodicals_Americas_1910-1924.png)
-
-:::
-::::
+![Arabic periodicals in the Americas first published between 1910 and 1924](/assets/maps/map-periodicals_Americas_1910-1924_basic.png)
 
 # 3. Combine images into a GIF {#sec-3}
 
