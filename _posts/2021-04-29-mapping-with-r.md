@@ -554,7 +554,7 @@ f.map.periodicals.by.period(data.jaraid, 1911, 1, scale_fill_gradientn(colours =
 f.map.periodicals.by.period(data.jaraid, 1910, 10, scale_fill_gradientn(colours = rainbow(20)))
 ```
 
-![Arabic periodicals first published throughout the 1910s](/assets/maps/map-periodicals_1910-1919_basic.png)
+![Arabic periodicals first published throughout the 1910s](/assets/maps/map-periodicals_1910-1919.png)
 
 Finally, we can also wrap this mapping function in another function to produce a sequence or time series of maps
 
@@ -596,10 +596,9 @@ region.middle.east <- tibble::tibble("long" = c(22, 48), "lat" = c(28, 43))
 region.americas <- tibble::tibble("long" = c(-140, -35), "lat" = c(-55, 65))
 ```
 
-We can now filter either our complete dataset or the subsets for periods by region
+We can now filter either our complete dataset or the subsets for periods by region:
 
-:::: {.columns}
-::: {.column}
+:::{.c_width-50}
 
 ```r
 data.1911.middle.east <- f.filter.by.region(data.1911, region.middle.east)
@@ -617,7 +616,7 @@ head(data.1911.middle.east)
 ```
 
 :::
-::: {.column}
+:::{.c_width-50}
 
 ```r
 data.1910s.americas <- f.filter.by.region(data.1910s, region.americas)
@@ -635,9 +634,8 @@ head(data.1910s.americas)
 ```
 
 :::
-::::
 
-Before we can plot maps for this regionally subset data, we need another small helper function:
+Before we can plot maps for this regionally subset data, we need another small helper function, which subsets the data to a specific region:
 
 ```r
 f.viewport.from.region <- function(region, projection){
@@ -677,7 +675,7 @@ f.map.periodicals.by.period.region(data.jaraid, 1910, 10, region.americas, scale
 
 ## Map time series
 
-As a final step we, we need to write small wrapper functions to produce (and save) time series of maps. These can be of two types: rolling or accumulating.
+The final step is to write small wrapper functions to produce (and save) time series of maps. These can be of two types: rolling or accumulating.
 A rolling time series will present slices of equal length in which each slice is independent of the one before. Each dot on the map represents the number of periodicals first published during the period of this slice. An accumulating time series, on the other hand, will add the data of the current slice to the previous slices.
 With these functions we have finally reached the point where we can produce regional time series, which can then be combined into an animated GIF.
 
@@ -694,8 +692,10 @@ f.map.periodicals.regional.timeseries.rolling <- function(data.input, onset, ter
 }
 ```
 
+The following function call will now generate and save maps for Arabic periodicals published in the Americas for five rolling decades starting in 1910, 1911, 1912, 1913, and 1914.
+
 ```r
-f.map.periodicals.regional.timeseries.rolling(data.jaraid, 1910, 1915, 10, region.americas)
+f.map.periodicals.regional.timeseries.rolling(data.jaraid, 1910, 1914, 10, region.americas)
 ```
 
 ![Arabic periodicals in the Americas first published in the decade starting in 1910](/assets/maps/map-periodicals_Americas_1910-1919_basic.png)
