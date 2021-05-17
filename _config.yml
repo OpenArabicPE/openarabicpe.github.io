@@ -75,7 +75,7 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
+  ORCID: 0000-0002-5739-8094
 #  google-scholar: your google scholar
 
 # If you want to show a link to an RSS in the footer, add the site description here.
@@ -96,7 +96,7 @@ share-links-active:
 url-pretty: "openarabicpe.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 150
+excerpt_length: 250
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
