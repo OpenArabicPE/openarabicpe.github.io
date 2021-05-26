@@ -36,6 +36,7 @@ To celebrate this year's [Day of DH](https://dhcenternet.org/initiatives/day-of-
 
 - This is a draft and I appreciate any comments, questions etc. using [hypothes.is](https://hypothes.is/).
 - This website is generated using the default GitHub pages Jekyll workflow, which does not support a citeproc plugin. The few references are, therefore, currently not formatted.
+- The resulting maps have been published in their own [repository](https://github.com/projectjaraid/jaraid_maps/).
 
 # Introduction
 
