@@ -2,7 +2,7 @@
 layout: post
 title: "Mapping Arabic periodical titles between 1799 and 1929"
 subtitle: "A tutorial for mapping with R"
-author: "Till Grallert"
+author: Till Grallert
 date: 2021-04-29
 ORCID: orcid.org/0000-0002-5739-8094
 bibliography:

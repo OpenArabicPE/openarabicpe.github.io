@@ -10,12 +10,7 @@ title: Open Arabic Periodical Editions
 # Short description of your site
 description: A framework for bootstrapped digital scholarly editions outside the global north
 
-author:
-  name: Till Grallert
-  email: "t.grallert[at]fu-berlin.de"
-  github: tillgrallert    # eg. daattali
-  twitter: tillgrallert   # eg. daattali
-  #og_image: "path/to/img.png"
+author: Till Grallert
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
