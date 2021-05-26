@@ -4,7 +4,7 @@ title: "Open Arabic Periodical Editions (OpenArabicPE)"
 subtitle: "A framework for open, collaborative, and scholarly digital editions of early Arabic periodicals"
 author: Till Grallert
 date: 2018-12-17 16:41:11 +0200
-bigimg: /assets/images/OpenArabicPE_components-layer-1-4.png
+cover-img: /assets/images/OpenArabicPE_components-layer-1-4.png
 ---
 
 {: .box-note}
