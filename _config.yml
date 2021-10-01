@@ -29,8 +29,8 @@ navbar-links:
   About: "pages/about"
   Editions: 
     - Overview: "pages/editions"
-    - al-Ḥaqāʾiq: "https://www.github.com/openarabicpe/digital-haqaiq"
-    - al-Muqtabas: "https://www.github.com/tillgrallert/digital-muqtabas"
+    - al-Ḥaqāʾiq: "https://www.github.com/openarabicpe/journal_al-haqaiq"
+    - al-Muqtabas: "https://www.github.com/openarabicpe/journal_al-muqtabas"
     - al-Manār: "https://www.github.com/openarabicpe/journal_al-manar"
     - al-Ustādh: "https://www.github.com/openarabicpe/journal_al-ustadh"
     - al-Zuhūr: "https://www.github.com/openarabicpe/journal_al-zuhur"
