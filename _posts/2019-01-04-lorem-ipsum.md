@@ -7,13 +7,7 @@ date: 2019-01-04
 ORCID: orcid.org/0000-0002-5739-8094
 categories: blog
 tags:
-	- authority files
-	- linked open data
-	- SRU
-	- MARC
-	- TEI XML
-	- Arabic
-	- transliteration
+	- test
 ---
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit, eros cubilia facilisi convallis vivamus non, phasellus massa cum gravida malesuada elementum. Ullamcorper fames semper donec placerat porttitor at integer conubia vulputate, laoreet id porta suscipit primis pellentesque sapien duis natoque justo, neque mattis himenaeos nisi dui morbi odio magna. Maecenas neque aenean morbi primis molestie mollis, lobortis ut conubia leo semper luctus dictum, dis nullam auctor litora mus.
