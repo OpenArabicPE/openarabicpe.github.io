@@ -3,7 +3,7 @@ layout: post
 title: "Integrating library data into authority file"
 subtitle: "The challenges of MARC XML and inconsistent transcription practices"
 author: Till Grallert
-date: 2022-01-04
+date: 2021-01-04
 ORCID: orcid.org/0000-0002-5739-8094
 categories: blog
 tags:
