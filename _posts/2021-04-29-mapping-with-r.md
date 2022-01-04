@@ -40,7 +40,7 @@ To celebrate this year's [Day of DH](https://dhcenternet.org/initiatives/day-of-
 
 # Introduction
 
-Large bibliographic dataset such as [Project Jarāʾid](https://projectjaraid.github.io)'s[@Mestyan.etal+2020+JaraidChronologyArabic] that comprise information on more than 3300 periodical titles are far too large and unwieldy for manual analysis. One wants to use descriptive statistics and visualisations for a first exploration of the data set, which can then guide further scrutiny and create new research questions. Basic information for each periodical in the Project Jarāʾid data set (with very few exceptions) include the date of the first publication as well as a publication location and additional languages beyond Arabic for bi- or even multilingual periodicals. Such a data set lends itself to mapping in order to see the distribution of the number of periodical titles per location for a certain period and region. In order to visualise change over time, one will want to animate the map in some way, just as the ones below:
+Large bibliographic dataset such as the one compiled by [Project Jarāʾid](https://projectjaraid.github.io) (Mestyan, Grallert, and et al. 2020), which comprises information on more than 3300 periodical titles, are far too large and unwieldy for manual analysis. One wants to use descriptive statistics and visualisations for a first exploration of the data set, which can then guide further scrutiny and create new research questions. Basic information for each periodical in the Project Jarāʾid data set (with very few exceptions) include the date of the first publication as well as a publication location and additional languages beyond Arabic for bi- or even multilingual periodicals. Such a data set lends itself to mapping in order to see the distribution of the number of periodical titles per location for a certain period and region. In order to visualise change over time, one will want to animate the map in some way, just as the ones below:
 
 <!-- The GIF -->
 
@@ -123,7 +123,7 @@ This is a lot of information but here we are only concerned with the `<date>` an
 
 ## Temporal data
 
-Both the first and final confirmed date of publication are provided as `<date>` nodes with `@type` attributes to differentiate between the two. Note that in most cases we only have information on the onset. This is due to two reasons. First, our main source, the summary tables in the fourth volume of *dī Ṭarrāzī*'s "History of the Arabic Press", provides only the date of first publication and whether a periodical was still published at the time of publication of this volume (or rather its compilation).[@Tarrazi+1933] Second, endings are inherently difficult to track. Periodicals tend to start with much fanfare and to fickle out with future issues still being announced/promised in the last one we are able to track down.[C.f. @Albers+2020]
+Both the first and final confirmed date of publication are provided as `<date>` nodes with `@type` attributes to differentiate between the two. Note that in most cases we only have information on the onset. This is due to two reasons. First, our main source, the summary tables in the fourth volume of *dī Ṭarrāzī*'s "History of the Arabic Press", provides only the date of first publication and whether a periodical was still published at the time of publication of this volume (or rather its compilation).(dī Ṭarrāzī 1933) Second, endings are inherently difficult to track. Periodicals tend to start with much fanfare and to fickle out with future issues still being announced/promised in the last one we are able to track down.(C.f. Albers 2020)
 
 Periodicals and contemporaneous sources provided publication dates according to multiple calendars, which have been computationally normalised and recorded with the `@when`, `@when-custom`, and `@datingMethod`. The latter points to a local definition of the calendars found in our project.
 
@@ -774,5 +774,18 @@ And here is, finally, the resulting, animated map of an accumulating time series
 
 ![](/assets/maps/map-periodicals_Americas_1896-1929-y_1.gif)
 
+# Bibliography
 
+::: {#refs .references .hanging-indent}
+::: {#ref-Albers+2020}
+Albers, Yvonne. 2020. 'Die Zeitschrift als Krisengenre: Mawāqif (1968-1994). Eine Biografie'. Marburg: Philipps-Universität Marburg.
+:::
 
+::: {#ref-Mestyan.etal+2020+JaraidChronologyArabic}
+Mestyan, Adam, Till Grallert, and et al. 2020. 'Jarāʾid: A Chronology of Arabic Periodicals (1800-1929)'. Zenodo. <https://doi.org/10.5281/zenodo.4399240>.
+:::
+
+::: {#ref-Tarrazi+1933}
+Ṭarrāzī, Fīlīb dī. 1933. *Tārīkh al-ṣiḥāfa al-ʿarabiyya: yaḥtawī ʿalā jamīʻ fahāris al-jarāʾid wa al-majallāt al-ʿarabiyya fī al-khāfiqīn mudh takwīn al-ṣiḥāfa al-ʿarabiyya ilā nihāyat ʿām 1929*. Vol. 4. Bayrūt: al-Maṭbaʿa al-Amīrikāniyya. <http://hdl.handle.net/2333.1/crjdfsp1>.
+:::
+:::
