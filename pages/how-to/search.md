@@ -25,7 +25,7 @@ Users will, of course, want to search the edition for specific terms and will im
     + the [`filetype:`] operator is used to limit the scope of the search to a particular file type. Other options would be `filetype:md` for plain text markdown files, `filetype.bib` for BibTeX files etc.
 
     ![Search Google with the `site:` operator](/assets/images/search-google.jpg)
-3. Search the GitHub repository of the periodical you are interested in, such as [*al-Muqtabas*](https://github.com/tillgrallert/digital-muqtabas). This allows for browsing and searching and displays search results in context.
+3. Search the GitHub repository of the periodical you are interested in, such as [*al-Muqtabas*](https://github.com/openarabicpe/journal_al-muqtabas). This allows for browsing and searching and displays search results in context.
 
     ![Search the GitHub repository](/assets/images/search-github.jpg)
 
